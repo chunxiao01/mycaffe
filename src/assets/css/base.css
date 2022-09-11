@@ -2,3 +2,8 @@
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  background: #f6f6f6;
+}

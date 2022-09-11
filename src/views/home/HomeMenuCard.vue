@@ -82,8 +82,7 @@ export default {
 <style scoped>
 .home-menu-card {
   width: 100%;
-  height: 180px;
-  padding: 2px 10px;
+  padding: 5px 10px;
 }
 
 .home-menu-card-title {
@@ -119,10 +118,9 @@ export default {
 .home-menu-card-content {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-top: none;
   box-shadow: 5px 5px 5px 0 rgba(192, 192, 192, 0.2);
   border-radius: 0 0 8px 8px;
+  background: #fff;
 }
 
 .home-menu-card-detail {
@@ -146,7 +144,7 @@ export default {
   color: #999;
 }
 .home-menu-card-detail-item-text-detail-special {
-  color: #ba4c4c;
+  color: #f55555;
 }
 .home-menu-card-detail-item-icon {
   text-align: center;
