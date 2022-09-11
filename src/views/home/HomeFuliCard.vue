@@ -10,24 +10,54 @@
         </div>
       </div>
       <div class="home-fuli-card-content">
-        <div class="home-fuli-card-item">
-          <div class="home-fuli-card-item-text">lucky送福利</div>
-          <div class="home-fuli-card-item-text-detail">领4.8折券</div>
-        </div>
-        <div class="home-fuli-card-item">
-          <div class="home-fuli-card-item-text">邀请好友</div>
-          <div class="home-fuli-card-item-text-detail">
-            每邀一位好友各得20元
-          </div>
-        </div>
+        <swiper ref="homefulicardSwiper" :options="swiperOptions">
+          <swiper-slide v-for="(item, index) in homefulilist" :key="index">
+            <div class="home-fuli-card-item">
+              <div class="home-fuli-card-item-text">{{ item.text }}</div>
+              <div class="home-fuli-card-item-text-detail">
+                {{ item.text_detail }}
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "vue-awesome-swiper"
+import "swiper/css/swiper.css"
+
 export default {
-  name: "HomeFuliCard"
+  name: "HomeFuliCard",
+  data() {
+    return {
+      swiperOptions: { slidesPerView: 2.15, spaceBetween: 5 },
+      homefulilist: [
+        {
+          text: "lucky送福利",
+          text_detail: "领4.8折券"
+        },
+        {
+          text: "邀请好友",
+          text_detail: "每邀1位好友各得20元"
+        },
+        {
+          text: "#喝咖啡挑战",
+          text_detail: "再喝一杯达成"
+        },
+        {
+          text: "本月咖啡星人",
+          text_detail: "马上冲榜"
+        }
+      ]
+    }
+  },
+  components: {
+    Swiper,
+    SwiperSlide
+  }
 }
 </script>
 
@@ -57,6 +87,7 @@ export default {
 }
 .home-fuli-card-title-more {
   flex: 1;
+  line-height: 20px;
   text-align: right;
   font-size: 12px;
   margin: 10px;
@@ -64,12 +95,13 @@ export default {
 
 .home-fuli-card-content {
   display: flex;
-  padding: 10px;
+  padding: 5px 5px 10px 5px;
 }
 .home-fuli-card-item {
   flex: 1;
   padding: 10px;
   background: #f9e4e8;
+  border-radius: 8px;
 }
 .home-fuli-card-content .home-fuli-card-item:not(:last-child) {
   margin-right: 5px;

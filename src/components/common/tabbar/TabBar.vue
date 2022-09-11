@@ -13,11 +13,8 @@ export default {
 <style scoped>
 .tabbar {
   display: flex;
-  position: fixed;
   width: 100%;
   height: 52px;
-  left: 0;
-  bottom: 0;
   padding-top: 3px;
   border-top: 1px solid #eee;
 }

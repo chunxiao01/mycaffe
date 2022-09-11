@@ -1,25 +1,41 @@
 <template>
   <div class="home-menu-banner">
-    <div class="home-menu-banner-content" @touchstart="touchstart">
-      <img
-        class="home-menu-banner-content-img"
-        src="~assets/img/home/homebanner/banner1.png"
-        alt=""
-      />
-      <div class="home-menu-banner-content-btn">
-        <span>立即查看＞</span>
-      </div>
+    <div class="home-menu-banner-content">
+      <swiper ref="homemenubannerSwiper" :options="swiperOptions">
+        <swiper-slide v-for="(item, index) in homeswiperlist" :key="index">
+          <img :src="item.src" />
+          <div class="home-menu-banner-content-btn">
+            <span>马上下单＞</span>
+          </div>
+        </swiper-slide>
+        <div class="home-menu-banner-swiper-pagination" slot="pagination"></div>
+      </swiper>
     </div>
   </div>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "vue-awesome-swiper"
+import "swiper/css/swiper.css"
+
 export default {
   name: "HomeBanner",
-  methods: {
-    touchstart() {
-      console.log(123)
+  data() {
+    return {
+      swiperOptions: {
+        pagination: {
+          el: ".home-menu-banner-swiper-pagination",
+          dynamicBullets: true
+        }
+      },
+      homeswiperlist: [
+        { src: require("assets/img/home/homebanner/banner1.png") }
+      ]
     }
+  },
+  components: {
+    Swiper,
+    SwiperSlide
   }
 }
 </script>
@@ -37,10 +53,14 @@ export default {
   box-shadow: 5px 5px 5px 0 rgba(192, 192, 192, 0.2);
 }
 
+.home-menu-banner-content img {
+  width: 100%;
+}
+
 .home-menu-banner-content-btn {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 10px;
+  right: 5px;
 }
 .home-menu-banner-content-btn span {
   display: inline-block;

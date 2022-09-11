@@ -2,7 +2,8 @@
   <div class="home-menu-card">
     <div class="home-menu-card-title">
       <div class="home-menu-card-info">
-        <span>Lucky you~跟幸运打个招呼</span>
+        <span class="home-menu-card-info-avatar">🦌</span>
+        <span class="home-menu-card-info-text">Lucky you~跟幸运打个招呼</span>
       </div>
       <div v-if="true" class="home-menu-card-login-register">
         <span class="">登录/注册</span>
