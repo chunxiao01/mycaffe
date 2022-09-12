@@ -7,3 +7,8 @@ html,
 body {
   background: #f6f6f6;
 }
+
+:root {
+  --base-theme-bg-color: #f6f6f6;
+  --base-theme-color: #0c34ba;
+}

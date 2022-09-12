@@ -18,6 +18,7 @@
             <home-coupon :homecoupondata="item"></home-coupon>
           </swiper-slide>
         </swiper>
+        <home-simple-goods-card></home-simple-goods-card>
       </div>
     </div>
   </div>
@@ -28,6 +29,7 @@ import { Swiper, SwiperSlide } from "vue-awesome-swiper"
 import "swiper/css/swiper.css"
 
 import HomeCoupon from "./HomeCoupon.vue"
+import HomeSimpleGoodsCard from "./HomeSimpleGoodsCard.vue"
 
 export default {
   name: "HomeTuijianDay",
@@ -59,7 +61,8 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    HomeCoupon
+    HomeCoupon,
+    HomeSimpleGoodsCard
   }
 }
 </script>

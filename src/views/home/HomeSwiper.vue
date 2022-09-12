@@ -59,6 +59,6 @@ export default {
   width: 100%;
 }
 .home_swiper >>> .swiper-pagination-bullet-active {
-  background: #0c34ba !important;
+  background: var(--base-theme-color) !important;
 }
 </style>
