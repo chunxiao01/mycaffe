@@ -61,10 +61,10 @@ export default {
   display: inline-block;
   width: 20px;
   height: 20px;
-  line-height: 20px;
+  line-height: 18px;
   margin-top: 25px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
   color: #000;
   font-size: 16px;

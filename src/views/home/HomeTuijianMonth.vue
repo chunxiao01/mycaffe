@@ -142,7 +142,7 @@ export default {
 }
 .home-tuijian-month-container {
   width: 100%;
-  background: url(~assets/img/bg/bg1.jpeg) center center no-repeat;
+  background: url(~assets/img/bg/bg1.jpg) center center no-repeat;
   border-radius: 8px;
 }
 
