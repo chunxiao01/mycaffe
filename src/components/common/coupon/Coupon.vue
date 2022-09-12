@@ -46,13 +46,15 @@ export default {
 .coupon {
   display: flex;
   width: 100%;
-  background-color: #f9e4e8;
+  -webkit-mask: radial-gradient(circle at 130px 10px, #0000 5px, #ee3c3c 0) -10px -10px;
+  background-color: rgba(246, 232, 232, 0.4);
   border-radius: 8px;
+  border: 1px solid #ee3c3c;
 }
 .coupon-number {
   width: 120px;
   text-align: center;
-  border-right: 1px dotted #ee3c3c;
+  border-right: 1px dashed #ee3c3c;
 }
 .coupon-number-text {
   display: inline-block;

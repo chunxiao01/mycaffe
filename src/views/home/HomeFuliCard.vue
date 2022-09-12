@@ -100,7 +100,7 @@ export default {
 .home-fuli-card-item {
   flex: 1;
   padding: 10px;
-  background: #f9e4e8;
+  background-color: rgba(246, 232, 232, 0.8);
   border-radius: 8px;
 }
 .home-fuli-card-content .home-fuli-card-item:not(:last-child) {

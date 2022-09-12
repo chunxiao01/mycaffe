@@ -51,7 +51,9 @@ export default {
   },
   data() {
     return {
-      swiperOptions: {}
+      swiperOptions: {
+        // direction: "vertical"
+      }
     }
   },
   components: {
