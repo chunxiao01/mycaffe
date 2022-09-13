@@ -52,6 +52,6 @@ export default {
 }
 .simple-goods-card-m-img img {
   width: 50%;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 </style>

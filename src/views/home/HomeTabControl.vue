@@ -4,6 +4,8 @@
       <tab-control
         :isShowTabControlMore="isShowHomeTabControlMore"
         :tabcontroldatalist="hometabcontroldatalist"
+        @tab_control_tab_click="home_tab_control_tab_click"
+        @tab_control_tab_more_click="home_tab_control_tab_more_click"
       ></tab-control>
     </div>
   </div>
@@ -40,6 +42,18 @@ export default {
             tabcontrol_tab_index: "hometabcontrol_tab_3"
           }
         ]
+      }
+    }
+  },
+  methods: {
+    home_tab_control_tab_click(e) {
+      console.log(e)
+    },
+    home_tab_control_tab_more_click() {
+      if (this.isShowHomeTabControlMore) {
+        console.log("home更多")
+      } else {
+        return false
       }
     }
   },

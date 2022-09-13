@@ -29,15 +29,11 @@ export default {
         }
       },
       homeswiperlist: [
-        { src: require("assets/img/home/homeswiper/swiper1.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper2.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper3.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper4.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper5.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper6.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper7.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper8.jpg") },
-        { src: require("assets/img/home/homeswiper/swiper9.jpg") }
+        { src: require("assets/img/home/homeswiper/swiper1.png") },
+        { src: require("assets/img/home/homeswiper/swiper2.png") },
+        { src: require("assets/img/home/homeswiper/swiper3.png") },
+        { src: require("assets/img/home/homeswiper/swiper4.png") },
+        { src: require("assets/img/home/homeswiper/swiper5.png") }
       ]
     }
   },

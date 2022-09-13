@@ -57,11 +57,11 @@ export default {
   },
   methods: {
     tab_control_more_click() {
-      console.log("更多")
+      this.$emit("tab_control_tab_more_click")
     },
     tab_control_tab_click(index) {
       this.tabcontrol_tab_index = index
-      console.log(this.tabcontroldatalist[index])
+      this.$emit("tab_control_tab_click", index)
     },
     isActivetabcontroltab(index) {
       return this.tabcontrol_tab_index === index

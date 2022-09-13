@@ -7,6 +7,7 @@
     <home-fuli-card></home-fuli-card>
     <home-tuijian-month></home-tuijian-month>
     <home-tab-control></home-tab-control>
+    <home-product-list></home-product-list>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import HomeTuijianDay from "./HomeTuijianDay.vue"
 import HomeFuliCard from "./HomeFuliCard.vue"
 import HomeTuijianMonth from "./HomeTuijianMonth.vue"
 import HomeTabControl from "./HomeTabControl.vue"
+import HomeProductList from "./HomeProductList.vue"
 
 export default {
   name: "Home",
@@ -28,7 +30,8 @@ export default {
     HomeTuijianDay,
     HomeFuliCard,
     HomeTuijianMonth,
-    HomeTabControl
+    HomeTabControl,
+    HomeProductList
   }
 }
 </script>
