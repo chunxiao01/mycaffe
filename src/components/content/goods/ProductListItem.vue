@@ -25,7 +25,9 @@
           <span class="product-list-item-desc-price-new"
             >￥{{ productlistitemdata.product_price_new }}</span
           >
-          <span class="product-list-item-desc-price-old"
+          <span
+            class="product-list-item-desc-price-old"
+            v-if="productlistitemdata.product_price_old"
             >￥{{ productlistitemdata.product_price_old }}</span
           >
         </div>
