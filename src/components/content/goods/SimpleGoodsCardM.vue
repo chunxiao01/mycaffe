@@ -51,7 +51,7 @@ export default {
   text-align: right;
 }
 .simple-goods-card-m-img img {
-  width: 40%;
-  margin-top: 26px;
+  width: 50%;
+  margin-top: 40px;
 }
 </style>

@@ -48,10 +48,10 @@ export default {
   margin: 10px 0;
 }
 .simple-goods-card-sell-img {
-  width: 45px;
+  width: 50px;
 }
 .simple-goods-card-sell-img img {
-  width: 45px;
+  width: 50px;
 }
 .simple-goods-card-sell-action {
   width: 40px;

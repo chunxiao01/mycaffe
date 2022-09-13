@@ -39,25 +39,25 @@ export default {
           [
             {
               goodsname: "生椰拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat1.png"),
               newprice: 18,
               oldprice: 29
             },
             {
               goodsname: "偷心西梅拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat2.png"),
               newprice: 19,
               oldprice: 32
             },
             {
               goodsname: "椰云拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat3.png"),
               newprice: 19,
               oldprice: 29
             },
             {
               goodsname: "葡萄冰萃咖啡",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat4.png"),
               newprice: 19,
               oldprice: 32
             }
@@ -65,25 +65,25 @@ export default {
           [
             {
               goodsname: "陨石厚乳拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat1.png"),
               newprice: 19,
               oldprice: 32
             },
             {
               goodsname: "冰丝绒拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat2.png"),
               newprice: 18,
               oldprice: 29
             },
             {
               goodsname: "耶加雪菲•美式",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat3.png"),
               newprice: 17,
               oldprice: 29
             },
             {
               goodsname: "冰香草丝绒拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat4.png"),
               newprice: 19,
               oldprice: 32
             }
@@ -91,25 +91,25 @@ export default {
           [
             {
               goodsname: "冰厚乳拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat1.png"),
               newprice: 16,
               oldprice: 29
             },
             {
               goodsname: "耶加•生椰Dirty",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat2.png"),
               newprice: 21,
               oldprice: 35
             },
             {
               goodsname: "耶加•Dirty",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat3.png"),
               newprice: 19,
               oldprice: 32
             },
             {
               goodsname: "冲绳黑糖丝绒拿铁",
-              goodspic: require("assets/img/goods/simplegoods/goods002.jpg"),
+              goodspic: require("assets/img/goods/simplegoods/goods-cat4.png"),
               newprice: 19,
               oldprice: 32
             }
