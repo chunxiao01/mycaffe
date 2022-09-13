@@ -8,7 +8,10 @@
         <div class="product-list-item-post">
           {{ productlistitemdata.product_post }}
         </div>
-        <div class="product-list-item-size">
+        <div
+          class="product-list-item-size"
+          v-if="productlistitemdata.product_size"
+        >
           {{ productlistitemdata.product_size }}
         </div>
       </div>
@@ -106,12 +109,12 @@ export default {
   bottom: 10px;
   left: 5px;
   width: 60px;
-  height: 22px;
-  line-height: 22px;
+  height: 20px;
+  line-height: 18px;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
-  border-radius: 8px;
+  padding: 1px;
   background-color: #f93737;
 }
 
@@ -170,7 +173,7 @@ export default {
   display: inline-block;
   width: 24px;
   height: 24px;
-  line-height: 20px;
+  line-height: 18px;
   border-radius: 50%;
   background-color: var(--base-theme-color);
   text-align: center;

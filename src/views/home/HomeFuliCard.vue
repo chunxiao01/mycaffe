@@ -112,11 +112,11 @@ export default {
 .home-fuli-card-item-text {
   font-size: 16px;
   font-weight: bolder;
-  margin: 10px 0 3px 10px;
+  margin: 10px 0 3px 0;
 }
 .home-fuli-card-item-text-detail {
   font-size: 12px;
   color: #f55555;
-  margin: 3px 10px 10px 10px;
+  margin: 3px 0 10px 0;
 }
 </style>

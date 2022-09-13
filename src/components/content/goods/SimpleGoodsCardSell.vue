@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="simple-goods-card-sell-action">
-      <span class="simple-goods-card-sell-actio-add">+</span>
+      <span class="simple-goods-card-sell-actio-add">＋</span>
     </div>
   </div>
 </template>

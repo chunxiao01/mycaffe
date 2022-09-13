@@ -39,9 +39,11 @@ export default {
 <style scoped>
 .simple-goods-card-m {
   width: 100%;
+  height: 100%;
   background-color: rgb(230, 230, 230, 0.5);
   border-radius: 8px;
   padding: 10px;
+  position: relative;
 }
 .simple-goods-card-m-price {
   width: 60%;
@@ -49,9 +51,12 @@ export default {
 .simple-goods-card-m-img {
   width: 100%;
   text-align: right;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
 }
 .simple-goods-card-m-img img {
   width: 50%;
-  margin-top: 30px;
+  margin-right: 10px;
 }
 </style>

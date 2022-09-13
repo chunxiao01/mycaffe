@@ -87,6 +87,7 @@ export default {
 .home-simple-goods-card-item-0 {
   width: 100%;
   padding: 5px 5px 5px 0;
+  height: 100%;
 }
 .home-simple-goods-card-item-1 {
   width: 100%;
