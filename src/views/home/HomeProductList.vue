@@ -87,6 +87,5 @@ export default {
 <style scoped>
 .home-product-list {
   width: 100%;
-  margin-top: 10px;
 }
 </style>

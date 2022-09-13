@@ -48,6 +48,7 @@ export default {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 5px;
 }
 .product-list-item {
   width: 50%;

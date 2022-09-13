@@ -70,7 +70,7 @@ export default {
 <style scoped>
 .product-list-item {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
 }
 .product-list-item-container {
   width: 100%;

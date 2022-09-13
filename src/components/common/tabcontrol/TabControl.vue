@@ -74,13 +74,14 @@ export default {
 .tab-control {
   width: 100%;
   display: flex;
+  padding: 5px;
 }
 .tab-control-more {
-  width: 80px;
+  width: 60px;
   text-align: right;
   color: #999;
-  font-size: 14px;
-  margin-top: 2px;
+  font-size: 13px;
+  margin-top: 3px;
 }
 .tab-control-content {
   flex: 1;
