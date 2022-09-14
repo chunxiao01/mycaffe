@@ -2,8 +2,8 @@
   <div class="home-menu-card">
     <div class="home-menu-card-title">
       <div class="home-menu-card-info">
-        <span class="home-menu-card-info-avatar">🦌</span>
-        <span class="home-menu-card-info-text">Lucky you~跟幸运打个招呼</span>
+        <span class="home-menu-card-info-avatar">🐱</span>
+        <span class="home-menu-card-info-text">Hello,World~跟喵喵打个招呼</span>
       </div>
       <div v-if="true" class="home-menu-card-login-register">
         <span class="">登录/注册</span>
@@ -37,7 +37,7 @@
             <img src="~assets/img/home/homemenucard/get_others.svg" alt="" />
           </div>
           <div class="home-menu-card-detail-item-text">买潮品</div>
-          <div class="home-menu-card-detail-item-text-detail">瑞幸颜值周边</div>
+          <div class="home-menu-card-detail-item-text-detail">喵喵颜值周边</div>
         </div>
       </div>
       <div class="home-menu-card-good">

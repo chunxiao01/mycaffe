@@ -64,12 +64,12 @@ export default {
 }
 .home-menu-banner-content-btn span {
   display: inline-block;
-  width: 80px;
+  width: 60px;
   height: 24px;
   line-height: 24px;
   font-size: 12px;
   color: #000;
-  text-align: center;
+  text-align: right;
   background-color: #fff;
   border-radius: 20px;
 }

@@ -52,5 +52,6 @@ export default {
   background-color: rgb(230, 230, 230, 0.5);
   border-radius: 8px;
   padding: 10px;
+  padding-bottom: 5px;
 }
 </style>

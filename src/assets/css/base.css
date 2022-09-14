@@ -1,6 +1,10 @@
 @import "normalize.css";
 * {
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Noto Sans SC", 思源黑体, "Microsoft YaHei", 微软雅黑, "Noto Sans CJK SC",
+    "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 html,

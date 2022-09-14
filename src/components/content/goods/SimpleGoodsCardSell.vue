@@ -71,14 +71,14 @@ export default {
 }
 .simple-goods-card-sell-info {
   flex: 1;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .simple-goods-card-sell-name {
   font-size: 16px;
-  margin: 5px 0 5px 10px;
+  margin: 5px 0 5px 5px;
 }
 .simple-goods-card-sell-price {
-  margin: 5px 0 5px 10px;
+  margin: 5px 0 5px 5px;
 }
 .simple-goods-card-sell-price-new {
   font-size: 18px;

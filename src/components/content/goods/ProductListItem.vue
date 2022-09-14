@@ -17,9 +17,10 @@
       </div>
       <div class="product-list-item-desc">
         <div class="product-list-item-desc-text">
-          {{ productlistitemdata.product_desc }}({{
-            productlistitemdata.product_size
-          }})
+          {{ productlistitemdata.product_desc }}
+          <span v-if="productlistitemdata.product_size"
+            >({{ productlistitemdata.product_size }})</span
+          >
         </div>
         <div class="product-list-item-desc-price">
           <span class="product-list-item-desc-price-new"
@@ -95,7 +96,7 @@ export default {
 }
 .product-list-item-post {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 5px;
   width: 60px;
   height: 22px;
@@ -108,11 +109,10 @@ export default {
 }
 .product-list-item-size {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 5px;
   width: 60px;
-  height: 20px;
-  line-height: 18px;
+  height: 16px;
   text-align: center;
   font-size: 10px;
   color: #fff;
@@ -173,8 +173,8 @@ export default {
 }
 .product-list-item-add {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   line-height: 18px;
   border-radius: 50%;
   background-color: var(--base-theme-color);
