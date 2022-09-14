@@ -54,7 +54,7 @@ export default {
   width: 50px;
 }
 .simple-goods-card-sell-action {
-  width: 40px;
+  width: 25px;
   text-align: center;
 }
 .simple-goods-card-sell-action span {
@@ -74,7 +74,7 @@ export default {
   margin-left: 5px;
 }
 .simple-goods-card-sell-name {
-  font-size: 16px;
+  font-size: 15px;
   margin: 5px 0 5px 5px;
 }
 .simple-goods-card-sell-price {

@@ -44,7 +44,7 @@ export default {
             text_info: {
               text_info_valid: "限定饮品券",
               text_info_valid_tip: "有效期至",
-              text_info_valid_date: "2022-09-18"
+              text_info_valid_date: "2022-09-21"
             }
           }
         ]

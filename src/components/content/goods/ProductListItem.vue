@@ -99,8 +99,8 @@ export default {
   top: 5px;
   right: 5px;
   width: 60px;
-  height: 22px;
-  line-height: 22px;
+  height: 16px;
+  line-height: 16px;
   text-align: center;
   font-size: 12px;
   color: #fff;
@@ -113,6 +113,7 @@ export default {
   left: 5px;
   width: 60px;
   height: 16px;
+  line-height: 16px;
   text-align: center;
   font-size: 10px;
   color: #fff;

@@ -59,7 +59,7 @@ export default {
 
 .home-menu-banner-content-btn {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   right: 5px;
 }
 .home-menu-banner-content-btn span {
