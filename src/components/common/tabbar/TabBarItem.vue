@@ -60,4 +60,8 @@ export default {
 .tabbaritem-icon img {
   width: 24px;
 }
+
+.tabbaritem-text {
+  font-size: 14px;
+}
 </style>
