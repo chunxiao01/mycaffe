@@ -128,7 +128,7 @@ export default {
   width: 100%;
   padding: 5px;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .home-menu-card-detail-item {
   flex: 1;

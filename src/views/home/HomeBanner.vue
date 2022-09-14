@@ -47,6 +47,9 @@ export default {
   position: relative;
 }
 
+.home-menu-banner-content {
+  background: #fff;
+}
 .home-menu-banner-content-img {
   width: 100%;
   border-radius: 8px;
