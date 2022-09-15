@@ -5,7 +5,7 @@
 
 const { defineConfig } = require("@vue/cli-service")
 module.exports = defineConfig({
-  //publicPath: process.env.NODE_ENV === "production" ? "/mycoffee/" : "/", //配置nginx代理发布项目
+  publicPath: process.env.NODE_ENV === "production" ? "/mycoffee/" : "/", //配置发布项目
   productionSourceMap: false, //发布项目取消map文件生成
   transpileDependencies: true,
   configureWebpack: {
