@@ -43,9 +43,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes,
-  base: "/mycoffee/", //配置nginx代理发布项目
-  mode: "history"
+  routes
+  // base: "/mycoffee/", //配置nginx代理发布项目
+  // mode: "history"
 })
 
 export default router
