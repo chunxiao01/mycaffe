@@ -53,9 +53,7 @@ export default {
   },
   data() {
     return {
-      swiperOptions: {
-        // direction: "vertical"
-      }
+      swiperOptions: {}
     }
   },
   components: {
@@ -103,5 +101,9 @@ export default {
 .home-tujian-day-content {
   width: 100%;
   padding: 5px;
+}
+
+.home-tujian-day-content .swiper-slide {
+  padding: 5px 0;
 }
 </style>

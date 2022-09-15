@@ -63,4 +63,11 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.home-tab-control {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 101;
+}
+</style>

@@ -82,6 +82,7 @@ export default {
   width: 100%;
   background-color: #fff;
   border-radius: 8px;
+  box-shadow: 5px 5px 5px 0 rgba(192, 192, 192, 0.2);
 }
 
 .product-list-item-info {
@@ -123,7 +124,7 @@ export default {
 
 .product-list-item-desc {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
 }
 .product-list-item-desc-text {
   width: 100%;
@@ -136,7 +137,6 @@ export default {
 
 .product-list-item-desc-price {
   width: 100%;
-  margin-bottom: 5px;
 }
 .product-list-item-desc-price-new {
   font-size: 18px;
@@ -162,7 +162,7 @@ export default {
 .product-list-item-action {
   width: 100%;
   display: flex;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 10px 5px;
 }
 .product-list-item-sale {
   display: inline-block;
@@ -174,9 +174,9 @@ export default {
 }
 .product-list-item-add {
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  line-height: 18px;
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
   border-radius: 50%;
   background-color: var(--base-theme-color);
   text-align: center;

@@ -2,7 +2,11 @@
   <div class="home-menu-banner">
     <div class="home-menu-banner-content">
       <swiper ref="homemenubannerSwiper" :options="swiperOptions">
-        <swiper-slide v-for="(item, index) in homeswiperlist" :key="index">
+        <swiper-slide
+          v-for="(item, index) in homeswiperlist"
+          :key="index"
+          class="home-menu-banner-content-img"
+        >
           <img :src="item.src" />
           <div class="home-menu-banner-content-btn">
             <span>马上下单＞</span>
@@ -22,12 +26,7 @@ export default {
   name: "HomeBanner",
   data() {
     return {
-      swiperOptions: {
-        pagination: {
-          el: ".home-menu-banner-swiper-pagination",
-          dynamicBullets: true
-        }
-      },
+      swiperOptions: {},
       homeswiperlist: [
         { src: require("assets/img/home/homebanner/banner1.png") }
       ]
@@ -49,11 +48,12 @@ export default {
 
 .home-menu-banner-content {
   background: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 0 rgba(192, 192, 192, 0.2);
 }
 .home-menu-banner-content-img {
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 5px 5px 5px 0 rgba(192, 192, 192, 0.2);
+  padding: 5px;
 }
 
 .home-menu-banner-content img {
@@ -75,5 +75,8 @@ export default {
   text-align: right;
   background-color: #fff;
   border-radius: 20px;
+}
+.home-menu-banner-swiper-pagination {
+  /* display: none; */
 }
 </style>

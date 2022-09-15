@@ -79,7 +79,6 @@ export default {
 .home-simple-goods-card {
   width: 100%;
   display: flex;
-  padding: 10px 0;
 }
 .home-simple-goods-card-item {
   flex: 1;
