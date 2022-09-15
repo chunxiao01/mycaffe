@@ -3,7 +3,7 @@
     <div class="product-list-item-container">
       <div class="product-list-item-info">
         <div class="product-list-item-img">
-          <img :src="productlistitemdata.product_pic" alt="" />
+          <img v-lazy="productlistitemdata.product_pic" alt="" />
         </div>
         <div class="product-list-item-post">
           {{ productlistitemdata.product_post }}
