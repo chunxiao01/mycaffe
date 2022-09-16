@@ -1,13 +1,16 @@
 <template>
   <div class="menu-list">
     <div class="menu-list-type">
-      <menu-group :menugroupdata="menutypedatas"></menu-group>
+      <scroll scrollWrapperName="menutypeScroll" class="menutypeScroll">
+        <menu-group :menugroupdata="menutypedatas"></menu-group>
+      </scroll>
     </div>
     <div class="menu-list-content">11</div>
   </div>
 </template>
 
 <script>
+import Scroll from "@/components/common/scroll/Scroll.vue"
 import MenuGroup from "@/components/content/menus/MenuGroup.vue"
 
 export default {
@@ -109,6 +112,7 @@ export default {
     }
   },
   components: {
+    Scroll,
     MenuGroup
   }
 }
@@ -124,5 +128,9 @@ export default {
 }
 .menu-list-content {
   flex: 1;
+}
+
+.menutypeScroll {
+  height: 400px;
 }
 </style>
