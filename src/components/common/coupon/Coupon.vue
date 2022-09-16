@@ -47,7 +47,7 @@ export default {
   display: flex;
   width: 100%;
   mask: radial-gradient(circle at 130px 10px, #0000 5px, #ee3c3c 0) -10px -10px;
-  background-color: rgba(246, 232, 232, 0.4);
+  background-color: #fcede8;
   border-radius: 8px;
   border: 1px solid #ee3c3c;
 }

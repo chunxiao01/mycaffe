@@ -20,7 +20,7 @@ export default {
       type: Object,
       default() {
         return {
-          color: "#aaa"
+          color: "#A2A2A2"
         }
       }
     },
@@ -28,7 +28,7 @@ export default {
       type: Object,
       default() {
         return {
-          color: "#222"
+          color: "#5B5FA0"
         }
       }
     },
