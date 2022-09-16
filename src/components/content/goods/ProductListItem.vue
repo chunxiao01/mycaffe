@@ -119,7 +119,7 @@ export default {
   font-size: 10px;
   color: #fff;
   padding: 1px;
-  background-color: #f93737;
+  background-color: #c4181e;
 }
 
 .product-list-item-desc {
@@ -157,7 +157,7 @@ export default {
   padding: 3px;
   background-color: rgba(246, 232, 232, 0.8);
   font-size: 13px;
-  color: #f93737;
+  color: #c4181e;
 }
 .product-list-item-action {
   width: 100%;

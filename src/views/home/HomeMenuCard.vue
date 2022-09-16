@@ -91,9 +91,9 @@ export default {
   height: 35px;
   line-height: 35px;
   display: flex;
-  background-color: #111;
+  background-color: #2f3034;
   border-radius: 8px 8px 0 0;
-  color: bisque;
+  color: #c2ae89;
   font-size: 12px;
   text-align: center;
 }
@@ -111,8 +111,8 @@ export default {
   height: 24px;
   line-height: 24px;
   margin-top: 3px;
-  background-color: bisque;
-  color: #111;
+  background-color: #c2ae89;
+  color: #2f3034;
   border-radius: 20px;
 }
 
@@ -145,7 +145,7 @@ export default {
   color: #999;
 }
 .home-menu-card-detail-item-text-detail-special {
-  color: #f55555;
+  color: #ea6749;
 }
 .home-menu-card-detail-item-icon {
   text-align: center;

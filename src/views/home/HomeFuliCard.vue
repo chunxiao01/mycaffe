@@ -116,7 +116,7 @@ export default {
 }
 .home-fuli-card-item-text-detail {
   font-size: 12px;
-  color: #f55555;
+  color: #ea6749;
   margin: 3px 0 10px 0;
 }
 </style>
