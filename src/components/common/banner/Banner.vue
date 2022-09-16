@@ -117,12 +117,12 @@ export default {
 }
 .banner-fold {
   position: absolute;
-  top: 10px;
+  top: 20px;
   right: 10px;
   width: 50px;
-  height: 24px;
+  height: 16px;
   text-align: right;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bolder;
   color: var(--base-theme-color);
   z-index: 100;

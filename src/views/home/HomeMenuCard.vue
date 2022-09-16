@@ -91,9 +91,9 @@ export default {
   height: 35px;
   line-height: 35px;
   display: flex;
-  background-color: #2f3034;
+  background-color: #22292e;
   border-radius: 8px 8px 0 0;
-  color: #c2ae89;
+  color: #e9cb90;
   font-size: 12px;
   text-align: center;
 }
@@ -111,8 +111,8 @@ export default {
   height: 24px;
   line-height: 24px;
   margin-top: 3px;
-  background-color: #c2ae89;
-  color: #2f3034;
+  background-color: #e9cb90;
+  color: #22292e;
   border-radius: 20px;
 }
 

@@ -3,12 +3,12 @@
     <div class="shop-type-content" @click="shoptypebSelecte">
       <span
         class="shop-type-byyourself"
-        :class="{ 'shop-type-seleced': shoptypebyselected }"
+        :class="{ 'shop-type-seleced': !shoptypebyselected }"
         >自提</span
       >
       <span
         class="shop-type-byshop"
-        :class="{ 'shop-type-seleced': !shoptypebyselected }"
+        :class="{ 'shop-type-seleced': shoptypebyselected }"
         >外送</span
       >
     </div>
@@ -27,7 +27,7 @@ export default {
     shoptypebSelecte() {
       this.shoptypebyselected = !this.shoptypebyselected
       let shoptypedata = "yourself"
-      if (!this.shoptypebyselected) {
+      if (this.shoptypebyselected) {
         shoptypedata = "shop"
       }
       this.$emit("shoptypebSelecte", shoptypedata)
