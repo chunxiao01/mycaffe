@@ -47,6 +47,7 @@ export default {
   border: none;
   background-color: var(--base-theme-bg-color);
   outline: none;
+  font-size: 14px;
 }
 .search_input:focus {
   outline: none;
