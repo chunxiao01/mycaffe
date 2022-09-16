@@ -117,7 +117,7 @@ export default {
 }
 .banner-fold {
   position: absolute;
-  top: 20px;
+  top: 16px;
   right: 10px;
   width: 50px;
   height: 16px;
