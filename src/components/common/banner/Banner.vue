@@ -35,8 +35,8 @@
       </div>
     </div>
     <div class="banner-fold" @click="bannerfoldClick">
-      <span class="banner-fold-down" v-if="!bannerfoldup">∨</span>
-      <span class="banner-fold-up" v-else>∧</span>
+      <span class="banner-fold-down" v-if="!bannerfoldup">﹀</span>
+      <span class="banner-fold-up" v-else>︿</span>
     </div>
   </div>
 </template>

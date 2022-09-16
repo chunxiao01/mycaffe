@@ -26,6 +26,9 @@
         <banner :bannerswiperlist="menuBannerSwiperList"></banner>
       </div>
     </div>
+    <div class="menu-main-container">
+      <menu-list></menu-list>
+    </div>
   </div>
 </template>
 
@@ -35,6 +38,7 @@ import Search from "@/components/common/search/Search.vue"
 import ShopAddress from "@/components/common/shopaddress/ShopAddress.vue"
 import ShopType from "@/components/common/shoptype/ShopType.vue"
 import Banner from "@/components/common/banner/Banner.vue"
+import MenuList from "./MenuList.vue"
 
 export default {
   name: "Menu",
@@ -69,7 +73,8 @@ export default {
     Search,
     ShopAddress,
     ShopType,
-    Banner
+    Banner,
+    MenuList
   }
 }
 </script>
