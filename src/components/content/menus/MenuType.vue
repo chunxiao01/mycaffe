@@ -37,38 +37,37 @@ export default {
 
 <style scoped>
 .menu-type {
-  width: 120px;
-  height: 70px;
-  line-height: 70px;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
   position: relative;
-  margin: 5px 0;
 }
 .menu-type-text {
   display: inline-block;
-  width: 120px;
-  height: 45px;
-  line-height: 45px;
-  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
   padding-left: 15px;
 }
 .menu-type-text-selected {
-  background-color: #e6e6e6;
+  background-color: #d9d9d9;
   font-weight: bolder;
   border-radius: 0 20px 20px 0;
 }
 .menu-type-select-mark {
   position: absolute;
   left: 0;
-  top: 30px;
-  width: 10px;
+  top: 23px;
+  width: 8px;
   height: 10px;
   border-radius: 0 50% 50% 0;
   background-color: var(--base-theme-color);
 }
 .menu-type-key {
   position: absolute;
-  left: 60px;
-  top: 5px;
+  left: 40px;
+  top: 0px;
   width: 60px;
   height: 20px;
   line-height: 20px;

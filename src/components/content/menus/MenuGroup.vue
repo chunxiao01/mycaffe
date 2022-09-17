@@ -1,14 +1,12 @@
 <template>
   <div class="menu-group">
-    <div class="menu-group-item">
-      <menu-type
-        v-for="(item, index) in menugroupdata"
-        :menutypedata="item"
-        :key="item.menutypeid"
-        @click.native="menuTypeClick(item.menutypeid, index)"
-        :isMenuTypeSelected="menuTypeSelected(index)"
-      ></menu-type>
-    </div>
+    <menu-type
+      v-for="(item, index) in menugroupdata"
+      :menutypedata="item"
+      :key="item.menutypeid"
+      :isMenuTypeSelected="menuTypeSelected(index)"
+      @click.native="menuTypeClick(item.menutypeid, index)"
+    ></menu-type>
   </div>
 </template>
 

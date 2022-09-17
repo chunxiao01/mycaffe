@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <main-tab-bar />
+    <main-tab-bar id="mainTabBar" />
   </div>
 </template>
 
@@ -21,6 +21,6 @@ export default {
 
 #app {
   position: relative;
-  padding-bottom: 52px;
+  padding-bottom: 54px;
 }
 </style>
