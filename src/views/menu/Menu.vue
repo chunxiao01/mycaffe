@@ -82,6 +82,8 @@ export default {
 <style scoped>
 .menu {
   width: 100%;
+  height: calc(100vh - 54px);
+  overflow: hidden;
 }
 .menu-container {
   width: 100%;

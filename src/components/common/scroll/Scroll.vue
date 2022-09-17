@@ -15,6 +15,10 @@ export default {
     scrollWrapperName: {
       type: String,
       default: "scrollWrapper"
+    },
+    isScrollClick: {
+      type: Boolean,
+      default: true
     }
   },
   data() {
@@ -23,7 +27,9 @@ export default {
     }
   },
   mounted() {
-    this.scroll = new BScroll(this.$refs[this.scrollWrapperName])
+    this.scroll = new BScroll(this.$refs[this.scrollWrapperName], {
+      click: this.isScrollClick // 容器内元素是否可以点击
+    })
   }
 }
 </script>
