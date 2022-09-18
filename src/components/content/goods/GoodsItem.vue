@@ -1,7 +1,7 @@
 <template>
   <div class="goods-item">
     <div class="goods-item-img">
-      <img :src="goodsItemData.goodspic" alt="" />
+      <img v-lazy="goodsItemData.goodspic" alt="" />
     </div>
     <div class="goods-item-info">
       <div class="goods-item-info-name">
@@ -95,21 +95,20 @@ export default {
 }
 .goods-item-info-name-text {
   display: inline-block;
-  height: 22px;
-  line-height: 22px;
+  height: 24px;
+  line-height: 24px;
   font-size: 16px;
 }
 .goods-item-info-name-tips {
   display: inline-block;
-  height: 18px;
-  line-height: 18px;
-  border-radius: 9px 0 9px 0;
+  height: 14px;
+  line-height: 14px;
+  border-radius: 7px 0 7px 0;
   background-color: #f8532b;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-align: center;
-  margin: 2px 2px 2px 5px;
-  padding: 1px;
+  margin: 0 0 0 5px;
 }
 .goods-item-info-desc {
   margin-bottom: 2px;

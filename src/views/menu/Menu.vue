@@ -313,7 +313,7 @@ export default {
             all_height - menu_top_height - tabbar_height
 
           document.getElementById("menuListTypeScroll").style.height =
-            _this.menuTypeListScrollHeight + "px"
+            _this.menuTypeListScrollHeight - 10 + "px"
           _this.$refs.menuListTypeScrollRef.scroll.refresh()
 
           _this.menuContentScrollHeight =

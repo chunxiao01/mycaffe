@@ -7,7 +7,7 @@
     >
     <span class="menu-type-select-mark" v-show="isMenuTypeSelected"></span>
     <span class="menu-type-key" v-if="menutypedata.menutypekey">{{
-      menutypedata.menutypename
+      menutypedata.menutypekeyname
     }}</span>
   </div>
 </template>
@@ -66,9 +66,9 @@ export default {
 }
 .menu-type-key {
   position: absolute;
-  left: 40px;
+  left: 45px;
   top: 0px;
-  width: 60px;
+  width: 55px;
   height: 20px;
   line-height: 20px;
   border-radius: 20px 20px 20px 0;
