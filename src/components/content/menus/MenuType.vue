@@ -37,17 +37,17 @@ export default {
 
 <style scoped>
 .menu-type {
-  width: 100px;
+  width: 90px;
   height: 60px;
   line-height: 60px;
   position: relative;
 }
 .menu-type-text {
   display: inline-block;
-  width: 100px;
+  width: 90px;
   height: 40px;
   line-height: 40px;
-  font-size: 14px;
+  font-size: 13px;
   padding-left: 15px;
 }
 .menu-type-text-selected {
@@ -66,14 +66,14 @@ export default {
 }
 .menu-type-key {
   position: absolute;
-  left: 45px;
+  left: 40px;
   top: 0px;
-  width: 55px;
+  width: 50px;
   height: 20px;
   line-height: 20px;
   border-radius: 20px 20px 20px 0;
   background-color: #c1a179;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-align: center;
 }

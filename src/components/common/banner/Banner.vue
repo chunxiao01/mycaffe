@@ -108,7 +108,7 @@ export default {
   display: inline-block;
   height: 36px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--base-theme-color);
   margin-left: 5px;
   overflow: hidden;
@@ -117,12 +117,13 @@ export default {
 }
 .banner-fold {
   position: absolute;
-  top: 16px;
+  top: 8px;
   right: 10px;
   width: 50px;
-  height: 16px;
+  height: 32px;
+  line-height: 32px;
   text-align: right;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bolder;
   color: var(--base-theme-color);
   z-index: 100;
@@ -148,7 +149,7 @@ export default {
 .banner-content-alltext-li-text {
   flex: 1;
   margin-left: 5px;
-  font-size: 12px;
+  font-size: 10px;
   color: var(--base-theme-color);
 }
 </style>
