@@ -27,6 +27,7 @@
         </div>
         <goods-item
           v-for="(item, index) in goodsGroupData.goodsGroupDetailData"
+          :key="item.goodsid"
           :goodsItemData="item"
         ></goods-item>
       </div>

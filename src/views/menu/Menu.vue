@@ -378,13 +378,16 @@ export default {
 .menu-main-container {
   width: 100%;
   display: flex;
+  padding: 10px 0;
 }
 .menu-list-type {
   width: 100px;
+  overflow: hidden;
 }
 .menu-list-content {
   flex: 1;
-  padding: 10px;
+  padding: 0 10px 0 5px;
+  overflow: hidden;
 }
 
 .menu-list-content-container {

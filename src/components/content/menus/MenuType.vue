@@ -58,7 +58,7 @@ export default {
 .menu-type-select-mark {
   position: absolute;
   left: 0;
-  top: 23px;
+  top: 24px;
   width: 8px;
   height: 10px;
   border-radius: 0 50% 50% 0;

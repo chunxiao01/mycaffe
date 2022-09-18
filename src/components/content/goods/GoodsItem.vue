@@ -112,10 +112,11 @@ export default {
   padding: 1px;
 }
 .goods-item-info-desc {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 .goods-item-info-desc-text,
 .goods-item-info-desc-fill {
+  display: block;
   font-size: 10px;
   color: #999;
   margin-bottom: 2px;
@@ -123,6 +124,7 @@ export default {
 
 .goods-item-info-action {
   display: flex;
+  padding-top: 5px;
 }
 .goods-item-info-price {
   flex: 1;
@@ -131,12 +133,16 @@ export default {
   font-size: 16px;
   font-weight: bolder;
   color: #f04e2a;
+  height: 20px;
+  line-height: 20px;
 }
 .goods-item-info-price-old {
   font-size: 12px;
   color: #a1a5a9;
   text-decoration: line-through;
   margin-left: 5px;
+  height: 20px;
+  line-height: 20px;
 }
 .goods-item-info-action-add {
   width: 100px;
