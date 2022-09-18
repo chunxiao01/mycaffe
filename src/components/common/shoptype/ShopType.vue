@@ -1,6 +1,6 @@
 <template>
   <div class="shop-type">
-    <div class="shop-type-content" @click="shoptypebSelecte">
+    <div class="shop-type-content" @click="shoptypebSelect">
       <span
         class="shop-type-byyourself"
         :class="{ 'shop-type-seleced': !shoptypebyselected }"
@@ -24,13 +24,13 @@ export default {
     }
   },
   methods: {
-    shoptypebSelecte() {
+    shoptypebSelect() {
       this.shoptypebyselected = !this.shoptypebyselected
       let shoptypedata = "yourself"
       if (this.shoptypebyselected) {
         shoptypedata = "shop"
       }
-      this.$emit("shoptypebSelecte", shoptypedata)
+      this.$emit("shoptypebSelect", shoptypedata)
     }
   }
 }

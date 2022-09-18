@@ -1,5 +1,5 @@
 <template>
-  <div class="menu-content">
+  <div class="menu-content" ref="goodsGroupRef">
     <goods-group
       v-for="item in menuContentData"
       :goodsGroupData="item"
@@ -21,6 +21,8 @@ export default {
             goodsGroupId: null,
             goodsGroupName: null,
             goodsGroupDesc: null,
+            goodsGroupNamePositionY: 0,
+            goodsGroupNameRefName: null,
             goodsGroupTypeType: [
               {
                 goodsGroupTypeTypeId: null,

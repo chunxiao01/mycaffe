@@ -19,7 +19,7 @@
         ></shop-address>
         <shop-type
           class="menu-shop-type"
-          @shoptypebSelecte="menuShopTypebSelecte"
+          @shoptypebSelect="menuShopTypebSelect"
         ></shop-type>
       </div>
       <div class="menu-top-banner">
@@ -32,8 +32,13 @@
           scrollWrapperName="menuTypeListScroll"
           id="menuListTypeScroll"
           ref="menuListTypeScrollRef"
+          :probeType="0"
         >
-          <menu-group :menugroupdata="menutypedatas"></menu-group>
+          <menu-group
+            :menugroupdata="menutypedatas"
+            ref="menuGroupRef"
+            @menuTypeSelect="menuTypeSelect"
+          ></menu-group>
         </scroll>
       </div>
       <div class="menu-list-content">
@@ -42,6 +47,8 @@
             scrollWrapperName="menuContentScroll"
             id="menuContentScroll"
             ref="menuContentScrollRef"
+            :probeType="3"
+            @scrollPosition="menuContentScrollPosition"
           >
             <menu-content :menuContentData="menuContentDatas"></menu-content>
           </scroll>
@@ -81,91 +88,106 @@ export default {
           menutypeid: "menutype_001",
           menutypename: "人气TOP",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_002",
           menutypename: "小黑杯",
           menutypekey: true,
-          menutypekeyname: "瑰夏上新"
+          menutypekeyname: "瑰夏上新",
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_003",
           menutypename: "爆款套餐",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_004",
           menutypename: "夏日冰咖季",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_005",
           menutypename: "水果冰萃",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_006",
           menutypename: "生椰家族",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_007",
           menutypename: "厚乳拿铁",
           menutypekey: true,
-          menutypekeyname: "二周年"
+          menutypekeyname: "二周年",
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_008",
           menutypename: "丝绒拿铁",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_009",
           menutypename: "经典拿铁",
           menutypekey: true,
-          menutypekeyname: "陨石"
+          menutypekeyname: "陨石",
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_010",
           menutypename: "瑞纳冰®",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_011",
           menutypename: "大师咖啡",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_012",
           menutypename: "不喝咖啡",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_013",
           menutypename: "甜品小点",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_014",
           menutypename: "烘焙轻食",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         },
         {
           menutypeid: "menutype_015",
           menutypename: "经典饮品",
           menutypekey: false,
-          menutypekeyname: null
+          menutypekeyname: null,
+          menuTypePositionY: 0
         }
       ],
       menuContentDatas: [
@@ -173,6 +195,8 @@ export default {
           goodsGroupId: "menutype_001",
           goodsGroupName: "人气TOP",
           goodsGroupDesc: "喵喵必喝爆款，无限回购",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_001_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -283,6 +307,8 @@ export default {
           goodsGroupId: "menutype_002",
           goodsGroupName: "小黑杯",
           goodsGroupDesc: "SOE单一产品地精品咖啡豆，SCA80+精品级认证，味觉升级",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_002_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: "menutype_002_type_001",
@@ -423,6 +449,8 @@ export default {
           goodsGroupId: "menutype_003",
           goodsGroupName: "爆款套餐",
           goodsGroupDesc: null,
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_003_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -485,6 +513,8 @@ export default {
           goodsGroupId: "menutype_004",
           goodsGroupName: "夏日冰咖季",
           goodsGroupDesc: "夏日冰咖，依然YYDS",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_004_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: "menutype_004_type_001",
@@ -624,6 +654,8 @@ export default {
           goodsGroupId: "menutype_005",
           goodsGroupName: "水果冰萃",
           goodsGroupDesc: "SOE精品埃塞豆与水果风味清爽碰撞，Let's Chill",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_005_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -674,6 +706,8 @@ export default {
           goodsGroupId: "menutype_006",
           goodsGroupName: "生椰家族",
           goodsGroupDesc: "《新周刊》2021中国生活趋势榜 国民风味",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_006_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -797,6 +831,8 @@ export default {
           goodsGroupName: "厚乳拿铁",
           goodsGroupDesc:
             "精选厚牛乳注入醇厚新口感，2020 EDGE Awards年度新消费产品",
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_007_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -895,6 +931,8 @@ export default {
           goodsGroupId: "menutype_008",
           goodsGroupName: "丝绒拿铁",
           goodsGroupDesc: null,
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_008_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -981,6 +1019,8 @@ export default {
           goodsGroupId: "menutype_009",
           goodsGroupName: "经典拿铁",
           goodsGroupDesc: null,
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: "menutype_009_ref",
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -1052,6 +1092,7 @@ export default {
           ]
         }
       ],
+      menuContentTGoodsGroupTypeTitlePositonY: [],
       menuTypeListScrollHeight: 100,
       menuContentScrollHeight: 100
     }
@@ -1068,8 +1109,25 @@ export default {
         console.log(value)
       }
     },
-    menuShopTypebSelecte(value) {
+    menuShopTypebSelect(value) {
       console.log(value)
+    },
+    menuTypeSelect(id) {
+      console.log("选择的类型：", id)
+      console.log("选择的类型：", this.$refs.menuGroupRef.currentMenuTyprId)
+    },
+    menuContentScrollPosition(position) {
+      // console.log("滚动", position)
+      // console.log(this.menuContentDatas[0].goodsGroupNameRefName)
+      // console.log(this.$refs[this.menuContentDatas[0].goodsGroupNameRefName])
+      // console.log(this.$refs.menuContentScrollRef.$refs)
+      // const goodsGroupNamePositionYValue =
+      //   this.$refs[this.menuContentDatas[0].goodsGroupNameRefName].offsetHeight
+      // console.log(
+      //   "标题高度",
+      //   this.menuContentDatas[0].goodsGroupName,
+      //   goodsGroupNamePositionYValue
+      // )
     },
     watchDomSize() {
       const _this = this
@@ -1086,14 +1144,14 @@ export default {
 
           document.getElementById("menuListTypeScroll").style.height =
             _this.menuTypeListScrollHeight - 10 + "px"
-          _this.$refs.menuListTypeScrollRef.scroll.refresh()
+          _this.$refs.menuListTypeScrollRef.scrollRefresh()
 
           _this.menuContentScrollHeight =
             all_height - menu_top_height - tabbar_height
           document.getElementById("menuContentScroll").style.height =
             _this.menuContentScrollHeight - 10 - 10 + "px"
 
-          _this.$refs.menuContentScrollRef.scroll.refresh()
+          _this.$refs.menuContentScrollRef.scrollRefresh()
         })
       })
     }

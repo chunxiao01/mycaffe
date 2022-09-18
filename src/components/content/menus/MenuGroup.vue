@@ -32,13 +32,16 @@ export default {
   },
   data() {
     return {
-      currentMenuTypeIndex: 0
+      currentMenuTypeIndex: 0,
+      currentMenuTyprId: null
     }
   },
   methods: {
     menuTypeClick(id, index) {
       console.log(id)
       this.currentMenuTypeIndex = index
+      this.currentMenuTyprId = id
+      this.$emit("menuTypeSelect", id)
     },
     menuTypeSelected(index) {
       return this.currentMenuTypeIndex === index

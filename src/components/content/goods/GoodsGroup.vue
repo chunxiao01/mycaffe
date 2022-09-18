@@ -1,8 +1,51 @@
 <template>
-  <div class="goods-group">
+  <div class="goods-group" :ref="goodsGroupData.goodsGroupNameRefName">
     <div class="goods-group-container">
       <div class="goods-group-item">
         <div class="goods-group-item-type">
+          <div class="goods-group-item-type-text">
+            <div class="goods-group-item-type-name">
+              {{ goodsGroupData.goodsGroupName }}
+            </div>
+            <div class="goods-group-item-type-desc">
+              {{ goodsGroupData.goodsGroupDesc }}
+            </div>
+            <div
+              class="goods-group-item-type-type"
+              v-if="
+                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeNumber
+              "
+            >
+              <div
+                class="goods-group-item-type-type-container"
+                v-for="goodstypetype in goodsGroupData.goodsGroupTypeType"
+                :key="goodstypetype.goodsGroupTypeTypeId"
+              >
+                <span
+                  class="goods-group-item-type-type-text goods-group-item-type-type-text-selected"
+                  v-if="goodstypetype.goodsGroupTypeTypeNumber"
+                  >{{ goodstypetype.goodsGroupTypeTypeName }}({{
+                    goodstypetype.goodsGroupTypeTypeNumber
+                  }})</span
+                >
+              </div>
+            </div>
+            <div
+              class="goods-group-item-type-type-title"
+              v-if="goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeName"
+            >
+              {{
+                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeName
+              }}({{
+                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeNumber
+              }})
+            </div>
+          </div>
+        </div>
+        <div
+          class="goods-group-item-type"
+          v-show="isGoodsTypeSelected(goodsGroupData.goodsGroupId)"
+        >
           <div class="goods-group-item-type-text">
             <div class="goods-group-item-type-name">
               {{ goodsGroupData.goodsGroupName }}
@@ -64,6 +107,8 @@ export default {
           goodsGroupId: null,
           goodsGroupName: null,
           goodsGroupDesc: null,
+          goodsGroupNamePositionY: 0,
+          goodsGroupNameRefName: null,
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -87,6 +132,15 @@ export default {
           ]
         }
       }
+    },
+    currentGoodsTypeIdSelected: {
+      type: String,
+      default: null
+    }
+  },
+  methods: {
+    isGoodsTypeSelected(goodstypeid) {
+      return goodstypeid === this.currentGoodsTypeIdSelected
     }
   },
   components: {
