@@ -3,7 +3,10 @@
     <div class="goods-group-container">
       <div class="goods-group-item">
         <div class="goods-group-item-type">
-          <div class="goods-group-item-type-text">
+          <div
+            class="goods-group-item-type-text"
+            v-show="showGoodsGroupItemTypeTitle"
+          >
             <div class="goods-group-item-type-name">
               {{ goodsGroupData.goodsGroupName }}
             </div>
@@ -92,6 +95,13 @@ export default {
     currentGoodsTypeSelectedId: {
       type: String,
       default: null
+    }
+  },
+  computed: {
+    showGoodsGroupItemTypeTitle() {
+      return (
+        this.currentGoodsTypeSelectedId === this.goodsGroupData.goodsGroupId
+      )
     }
   },
   methods: {

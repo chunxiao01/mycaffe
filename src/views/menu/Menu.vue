@@ -103,7 +103,7 @@ export default {
           menutypekeyname: null
         },
         {
-          menutypeid: "menutype_016",
+          menutypeid: "menutype_008",
           menutypename: "丝绒一周年",
           menutypekey: true,
           menutypekeyname: "青森"
