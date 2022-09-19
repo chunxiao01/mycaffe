@@ -1,5 +1,5 @@
 <template>
-  <div class="goods-group" :ref="goodsGroupData.goodsGroupNameRefName">
+  <div class="goods-group">
     <div class="goods-group-container">
       <div class="goods-group-item">
         <div class="goods-group-item-type">
@@ -97,6 +97,7 @@
 
 <script>
 import GoodsItem from "./GoodsItem.vue"
+
 export default {
   name: "GoodsGroup",
   props: {
@@ -107,8 +108,6 @@ export default {
           goodsGroupId: null,
           goodsGroupName: null,
           goodsGroupDesc: null,
-          goodsGroupNamePositionY: 0,
-          goodsGroupNameRefName: null,
           goodsGroupTypeType: [
             {
               goodsGroupTypeTypeId: null,
@@ -133,14 +132,14 @@ export default {
         }
       }
     },
-    currentGoodsTypeIdSelected: {
+    currentGoodsTypeSelectedId: {
       type: String,
       default: null
     }
   },
   methods: {
     isGoodsTypeSelected(goodstypeid) {
-      return goodstypeid === this.currentGoodsTypeIdSelected
+      return goodstypeid === this.currentGoodsTypeSelectedId
     }
   },
   components: {

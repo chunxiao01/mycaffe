@@ -4,12 +4,14 @@
       v-for="item in menuContentData"
       :goodsGroupData="item"
       :key="item.goodsGroupId"
+      :currentGoodsTypeSelectedId="currentGoodsTypeSelectedId"
     ></goods-group>
   </div>
 </template>
 
 <script>
 import GoodsGroup from "../goods/GoodsGroup.vue"
+
 export default {
   name: "MenuContent",
   props: {
@@ -21,8 +23,6 @@ export default {
             goodsGroupId: null,
             goodsGroupName: null,
             goodsGroupDesc: null,
-            goodsGroupNamePositionY: 0,
-            goodsGroupNameRefName: null,
             goodsGroupTypeType: [
               {
                 goodsGroupTypeTypeId: null,
@@ -47,6 +47,10 @@ export default {
           }
         ]
       }
+    },
+    currentGoodsTypeSelectedId: {
+      type: String,
+      default: null
     }
   },
   components: {

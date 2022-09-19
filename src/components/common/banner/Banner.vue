@@ -143,7 +143,7 @@ export default {
   display: flex;
 }
 .banner-content-alltext-li-img {
-  width: 14px;
+  width: 12px;
   margin: auto;
 }
 .banner-content-alltext-li-text {

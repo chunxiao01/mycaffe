@@ -27,24 +27,27 @@ export default {
 }
 .together-btn-content {
   width: 100%;
-  height: 35px;
-  line-height: 35px;
+  height: 30px;
+  line-height: 30px;
   border: 1px solid #999;
   border-radius: 20px;
   display: flex;
 }
 
 .together-btn-img {
-  width: 40px;
+  width: 35px;
 }
 .together-btn-img img {
-  width: 35px;
-  margin: 6px 0 0 5px;
+  width: 30px;
+  margin: 4px 0 0 4px;
 }
 .together-btn-text {
   flex: 1;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   text-align: left;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
 }
 </style>

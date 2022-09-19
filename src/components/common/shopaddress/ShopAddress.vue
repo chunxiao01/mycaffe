@@ -32,11 +32,11 @@ export default {
   padding: 5px;
 }
 .shop-address-name {
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 15px;
+  margin-bottom: 3px;
 }
 .shop-address-distance {
-  font-size: 14px;
+  font-size: 12px;
   color: #999;
 }
 </style>

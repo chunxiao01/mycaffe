@@ -5,7 +5,7 @@
       :menutypedata="item"
       :key="item.menutypeid"
       :isMenuTypeSelected="menuTypeSelected(index)"
-      @click.native="menuTypeClick(item.menutypeid, index)"
+      @click.native="menuTypeClick(item.menutypeid, index, $event)"
     ></menu-type>
   </div>
 </template>
@@ -28,23 +28,25 @@ export default {
           }
         ]
       }
-    }
-  },
-  data() {
-    return {
-      currentMenuTypeIndex: 0,
-      currentMenuTyprId: null
+    },
+    menuGroupSelectedData: {
+      type: Object,
+      default() {
+        return {
+          currentMenuTypeIndex: 0,
+          currentMenuTypeId: null
+        }
+      }
     }
   },
   methods: {
-    menuTypeClick(id, index) {
-      console.log(id)
-      this.currentMenuTypeIndex = index
-      this.currentMenuTyprId = id
-      this.$emit("menuTypeSelect", id)
+    menuTypeClick(id, index, e) {
+      this.menuGroupSelectedData.currentMenuTypeIndex = index
+      this.menuGroupSelectedData.currentMenuTypeId = id
+      this.$emit("menuTypeSelect", index, id, e)
     },
     menuTypeSelected(index) {
-      return this.currentMenuTypeIndex === index
+      return this.menuGroupSelectedData.currentMenuTypeIndex === index
     }
   },
   components: { MenuType }

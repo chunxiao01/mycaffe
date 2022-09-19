@@ -34,15 +34,15 @@ export default {
 <style scoped>
 .search {
   width: 100%;
-  height: 46px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 40px;
   position: relative;
 }
 .search_input {
   touch-action: manipulation;
   width: 100%;
-  height: 36px;
-  padding: 8px 16px 8px 44px;
+  height: 39px;
+  padding: 8px 12px 8px 40px;
   border-radius: 20px;
   border: none;
   background-color: var(--base-theme-bg-color);
@@ -62,6 +62,6 @@ export default {
 }
 
 .search_icon img {
-  width: 30px;
+  width: 25px;
 }
 </style>

@@ -50,27 +50,27 @@ export default {
 .shop-type-byyourself {
   flex: 1;
   display: inline-block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border-radius: 20px;
   background-color: var(--base-theme-bg-color);
   color: #999;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .shop-type-byshop {
   flex: 1;
   display: inline-block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border-radius: 20px;
   background-color: var(--base-theme-bg-color);
   color: #999;
-  font-size: 16px;
+  font-size: 14px;
 }
 .shop-type-seleced {
   background-color: var(--base-theme-color);

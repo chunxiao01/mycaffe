@@ -78,6 +78,7 @@ export default {
   width: 100%;
   padding: 10px 5px;
   display: flex;
+  min-height: 50px;
 }
 .goods-item-img {
   width: 50px;
