@@ -47,7 +47,7 @@ export default {
   font-weight: bolder;
   text-align: left;
   display: inline-block;
-  height: 26px;
-  line-height: 26px;
+  height: 28px;
+  line-height: 28px;
 }
 </style>

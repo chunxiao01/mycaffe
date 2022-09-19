@@ -58,9 +58,9 @@
               :currentGoodsTypeSelectedId="currentGoodsTypeSelectedId"
             ></menu-content>
           </scroll>
-          <!-- <goods-group-title
+          <goods-group-title
             :goodsGroupTitleData="getGoodsGroupTitle"
-          ></goods-group-title> -->
+          ></goods-group-title>
         </div>
       </div>
     </div>

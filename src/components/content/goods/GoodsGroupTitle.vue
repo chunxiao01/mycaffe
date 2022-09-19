@@ -82,7 +82,6 @@ export default {
   width: 100%;
   padding: 0 5px;
   background-color: #fff;
-  display: none;
 }
 .goods-group-item-type-text {
   width: 100%;
