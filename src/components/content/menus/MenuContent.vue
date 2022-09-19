@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import GoodsGroup from "../goods/GoodsGroup.vue"
+import GoodsGroup from "@/components/content/goods/GoodsGroup.vue"
 
 export default {
   name: "MenuContent",

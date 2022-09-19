@@ -42,49 +42,6 @@
             </div>
           </div>
         </div>
-        <div
-          class="goods-group-item-type"
-          v-show="isGoodsTypeSelected(goodsGroupData.goodsGroupId)"
-        >
-          <div class="goods-group-item-type-text">
-            <div class="goods-group-item-type-name">
-              {{ goodsGroupData.goodsGroupName }}
-            </div>
-            <div class="goods-group-item-type-desc">
-              {{ goodsGroupData.goodsGroupDesc }}
-            </div>
-            <div
-              class="goods-group-item-type-type"
-              v-if="
-                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeNumber
-              "
-            >
-              <div
-                class="goods-group-item-type-type-container"
-                v-for="goodstypetype in goodsGroupData.goodsGroupTypeType"
-                :key="goodstypetype.goodsGroupTypeTypeId"
-              >
-                <span
-                  class="goods-group-item-type-type-text goods-group-item-type-type-text-selected"
-                  v-if="goodstypetype.goodsGroupTypeTypeNumber"
-                  >{{ goodstypetype.goodsGroupTypeTypeName }}({{
-                    goodstypetype.goodsGroupTypeTypeNumber
-                  }})</span
-                >
-              </div>
-            </div>
-            <div
-              class="goods-group-item-type-type-title"
-              v-if="goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeName"
-            >
-              {{
-                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeName
-              }}({{
-                goodsGroupData.goodsGroupTypeType[0].goodsGroupTypeTypeNumber
-              }})
-            </div>
-          </div>
-        </div>
         <goods-item
           v-for="(item, index) in goodsGroupData.goodsGroupDetailData"
           :key="item.goodsid"

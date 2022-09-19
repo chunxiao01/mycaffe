@@ -58,6 +58,9 @@
               :currentGoodsTypeSelectedId="currentGoodsTypeSelectedId"
             ></menu-content>
           </scroll>
+          <!-- <goods-group-title
+            :goodsGroupTitleData="getGoodsGroupTitle"
+          ></goods-group-title> -->
         </div>
       </div>
     </div>
@@ -76,6 +79,7 @@ import Banner from "@/components/common/banner/Banner.vue"
 import Scroll from "@/components/common/scroll/Scroll.vue"
 import MenuGroup from "@/components/content/menus/MenuGroup.vue"
 import MenuContent from "@/components/content/menus/MenuContent.vue"
+import GoodsGroupTitle from "@/components/content/goods/GoodsGroupTitle.vue"
 
 export default {
   name: "Menu",
@@ -1095,6 +1099,25 @@ export default {
     },
     currentGoodsTypeSelectedId() {
       return this.menuGroupSelectedData.currentMenuTypeId
+    },
+    getGoodsGroupTitle() {
+      const index = this.menuGroupSelectedData.currentMenuTypeIndex
+      if (this.menuContentDatas[index]) {
+        return this.menuContentDatas[index]
+      } else {
+        return {
+          goodsGroupId: null,
+          goodsGroupName: null,
+          goodsGroupDesc: null,
+          goodsGroupTypeType: [
+            {
+              goodsGroupTypeTypeId: null,
+              goodsGroupTypeTypeName: null,
+              goodsGroupTypeTypeNumber: null
+            }
+          ]
+        }
+      }
     }
   },
   methods: {
@@ -1115,11 +1138,8 @@ export default {
         let menuContentGroups = this.$refs.menuContentRef.$el.children
         let el = menuContentGroups[index]
         this.$refs.menuContentScrollRef.scroll &&
-          this.$refs.menuContentScrollRef.scrollToElement(el)
+          this.$refs.menuContentScrollRef.scrollToElement(el, false, true)
       }
-    },
-    aaa(position) {
-      console.log(position)
     },
     menuContentScrollPosition(position) {
       let menuContentGroups = this.$refs.menuContentRef.$el.children
@@ -1131,6 +1151,7 @@ export default {
         this.menuContentTGoodsGroupHeight.push(height)
       })
       this.menuContentTGoodsGroupPositonY = Math.abs(Math.round(position.y))
+
       this.menuGroupSelectedData.currentMenuTypeIndex =
         this.currentMenuTypeIndex
       this.menuGroupSelectedData.currentMenuTypeId =
@@ -1176,7 +1197,8 @@ export default {
     Banner,
     Scroll,
     MenuGroup,
-    MenuContent
+    MenuContent,
+    GoodsGroupTitle
   }
 }
 </script>
@@ -1237,5 +1259,6 @@ export default {
   background-color: #fff;
   border-radius: 8px;
   padding: 5px;
+  position: relative;
 }
 </style>
