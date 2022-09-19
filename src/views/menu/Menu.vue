@@ -91,7 +91,8 @@ export default {
         shopAddressDistance: 0
       },
       menuBannerSwiperList: [
-        { banner_text: "厚乳拿铁2岁了！浓醇厚乳，无限回购" },
+        { banner_text: "周年纪念款【青森苹果丝绒拿铁】，荡漾上线" },
+        { banner_text: "秋意浓，喝丝绒！丝绒拿铁1岁啦~" },
         { banner_text: "生如瑰夏，豆中传奇！SCA84精品级，重磅上市" }
       ],
       menutypedatas: [
@@ -102,20 +103,14 @@ export default {
           menutypekeyname: null
         },
         {
+          menutypeid: "menutype_016",
+          menutypename: "丝绒一周年",
+          menutypekey: true,
+          menutypekeyname: "青森"
+        },
+        {
           menutypeid: "menutype_002",
           menutypename: "小黑杯",
-          menutypekey: true,
-          menutypekeyname: "瑰夏上新"
-        },
-        {
-          menutypeid: "menutype_003",
-          menutypename: "爆款套餐",
-          menutypekey: false,
-          menutypekeyname: null
-        },
-        {
-          menutypeid: "menutype_004",
-          menutypename: "夏日冰咖季",
           menutypekey: false,
           menutypekeyname: null
         },
@@ -134,20 +129,14 @@ export default {
         {
           menutypeid: "menutype_007",
           menutypename: "厚乳拿铁",
-          menutypekey: true,
-          menutypekeyname: "二周年"
-        },
-        {
-          menutypeid: "menutype_008",
-          menutypename: "丝绒拿铁",
           menutypekey: false,
           menutypekeyname: null
         },
         {
           menutypeid: "menutype_009",
           menutypename: "经典拿铁",
-          menutypekey: true,
-          menutypekeyname: "陨石"
+          menutypekey: false,
+          menutypekeyname: null
         },
         {
           menutypeid: "menutype_010",
@@ -212,8 +201,8 @@ export default {
               goodsdescfill: null,
               goodsprice_new: 19,
               goodsprice_old: 29,
-              goodsSelected: true,
-              goodspieces: 1
+              goodsSelected: false,
+              goodspieces: null
             },
             {
               goodsid: "goods_002",
@@ -230,12 +219,12 @@ export default {
             {
               goodsid: "goods_003",
               goodspic: require("assets/img/goods/menugoods/cat3.png"),
-              goodsname: "椰青冰萃咖啡",
-              goodstips: null,
-              goodsdesc: "口感独特 | 奶咖控谨慎尝新",
-              goodsdescfill: "*0脂0乳糖/标准冰/充分搅拌",
-              goodsprice_new: 18,
-              goodsprice_old: 29,
+              goodsname: "青森苹果丝绒拿铁",
+              goodstips: "新品",
+              goodsdesc: "清甜苹果风味，口感圆润丝滑",
+              goodsdescfill: "*0卡糖",
+              goodsprice_new: 19,
+              goodsprice_old: 32,
               goodsSelected: false,
               goodspieces: null
             },
@@ -243,13 +232,13 @@ export default {
               goodsid: "goods_004",
               goodspic: require("assets/img/goods/menugoods/cat4.png"),
               goodsname: "厚乳拿铁",
-              goodstips: "二周年",
+              goodstips: null,
               goodsdesc: "人气 | 喵喵招牌，进入厚乳时代",
               goodsdescfill: null,
               goodsprice_new: 16,
               goodsprice_old: 29,
-              goodsSelected: true,
-              goodspieces: 2
+              goodsSelected: false,
+              goodspieces: null
             },
             {
               goodsid: "goods_005",
@@ -284,8 +273,8 @@ export default {
               goodsdescfill: "*0卡糖",
               goodsprice_new: 19,
               goodsprice_old: 32,
-              goodsSelected: true,
-              goodspieces: 1
+              goodsSelected: false,
+              goodspieces: null
             },
             {
               goodsid: "goods_008",
@@ -296,6 +285,105 @@ export default {
               goodsdescfill: null,
               goodsprice_new: 19,
               goodsprice_old: 32,
+              goodsSelected: false,
+              goodspieces: null
+            }
+          ]
+        },
+        {
+          goodsGroupId: "menutype_008",
+          goodsGroupName: "丝绒一周年",
+          goodsGroupDesc: "秋意浓，喝丝绒",
+          goodsGroupTypeType: [
+            {
+              goodsGroupTypeTypeId: null,
+              goodsGroupTypeTypeName: null,
+              goodsGroupTypeTypeNumber: null
+            }
+          ],
+          goodsGroupDetailData: [
+            {
+              goodsid: "goods_003",
+              goodspic: require("assets/img/goods/menugoods/cat3.png"),
+              goodsname: "青森苹果丝绒拿铁",
+              goodstips: "新品",
+              goodsdesc: "清甜苹果风味，口感圆润丝滑",
+              goodsdescfill: "*0卡糖",
+              goodsprice_new: 19,
+              goodsprice_old: 32,
+              goodsSelected: false,
+              goodspieces: null
+            },
+            {
+              goodsid: "goods_006",
+              goodspic: require("assets/img/goods/menugoods/cat6.png"),
+              goodsname: "丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "超丝滑 | 年度重磅，丝滑感提升",
+              goodsdescfill: "20.99%",
+              goodsprice_new: 18,
+              goodsprice_old: 29,
+              goodsSelected: false,
+              goodspieces: null
+            },
+            {
+              goodsid: "goods_004",
+              goodspic: require("assets/img/goods/menugoods/cat4.png"),
+              goodsname: "冰丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "冰的刚刚好，一口丝滑滑滑",
+              goodsdescfill: null,
+              goodsprice_new: 18,
+              goodsprice_old: 29,
+              goodsSelected: false,
+              goodspieces: null
+            },
+
+            {
+              goodsid: "goods_001",
+              goodspic: require("assets/img/goods/menugoods/cat1.png"),
+              goodsname: "冰生椰丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "椰香清甜，冰润更丝滑",
+              goodsdescfill: null,
+              goodsprice_new: 19,
+              goodsprice_old: 32,
+              goodsSelected: false,
+              goodspieces: null
+            },
+            {
+              goodsid: "goods_008",
+              goodspic: require("assets/img/goods/menugoods/cat8.png"),
+              goodsname: "生椰丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "双爆款 | 一口椰香一口丝滑",
+              goodsdescfill: null,
+              goodsprice_new: 19,
+              goodsprice_old: 32,
+              goodsSelected: false,
+              goodspieces: null
+            },
+            {
+              goodsid: "goods_002",
+              goodspic: require("assets/img/goods/menugoods/cat2.png"),
+              goodsname: "冲绳黑糖丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "老爆款升级，口感更丝滑",
+              goodsdescfill: null,
+              goodsprice_new: 19,
+              goodsprice_old: 32,
+              goodsSelected: false,
+              goodspieces: null
+            },
+            {
+              goodsid: "goods_005",
+              goodspic: require("assets/img/goods/menugoods/cat5.png"),
+              goodsname: "香草丝绒拿铁",
+              goodstips: null,
+              goodsdesc: "丝滑香甜，源自马达加斯加香草",
+              goodsdescfill: null,
+              goodsprice_new: 19,
+              goodsprice_old: 29,
               goodsSelected: false,
               goodspieces: null
             }
@@ -436,207 +524,6 @@ export default {
               goodsdescfill: null,
               goodsprice_new: 19,
               goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            }
-          ]
-        },
-        {
-          goodsGroupId: "menutype_003",
-          goodsGroupName: "爆款套餐",
-          goodsGroupDesc: null,
-          goodsGroupTypeType: [
-            {
-              goodsGroupTypeTypeId: null,
-              goodsGroupTypeTypeName: null,
-              goodsGroupTypeTypeNumber: null
-            }
-          ],
-          goodsGroupDetailData: [
-            {
-              goodsid: "goods_001",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
-              goodsname: "秋天下午茶",
-              goodstips: null,
-              goodsdesc: "节气限定套餐5.5折",
-              goodsdescfill: null,
-              goodsprice_new: "22.55起",
-              goodsprice_old: null,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_002",
-              goodspic: require("assets/img/goods/menugoods/cat2.png"),
-              goodsname: "4杯吨吨咖啡",
-              goodstips: null,
-              goodsdesc: "欢乐下午茶，享4倍快乐",
-              goodsdescfill: null,
-              goodsprice_new: "61.48起",
-              goodsprice_old: null,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_003",
-              goodspic: require("assets/img/goods/menugoods/cat3.png"),
-              goodsname: "3杯醒醒咖啡",
-              goodstips: null,
-              goodsdesc: "饮品选3不纠结",
-              goodsdescfill: null,
-              goodsprice_new: "46.11起",
-              goodsprice_old: null,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_004",
-              goodspic: require("assets/img/goods/menugoods/cat4.png"),
-              goodsname: "2杯贴贴咖啡",
-              goodstips: null,
-              goodsdesc: "你一杯我一杯，好喝加倍",
-              goodsdescfill: null,
-              goodsprice_new: "31.9起",
-              goodsprice_old: null,
-              goodsSelected: false,
-              goodspieces: null
-            }
-          ]
-        },
-        {
-          goodsGroupId: "menutype_004",
-          goodsGroupName: "夏日冰咖季",
-          goodsGroupDesc: "夏日冰咖，依然YYDS",
-          goodsGroupTypeType: [
-            {
-              goodsGroupTypeTypeId: "menutype_004_type_001",
-              goodsGroupTypeTypeName: "奶咖爱好者",
-              goodsGroupTypeTypeNumber: 6
-            },
-            {
-              goodsGroupTypeTypeId: "menutype_004_type_002",
-              goodsGroupTypeTypeName: "黑咖爱好者",
-              goodsGroupTypeTypeNumber: 4
-            }
-          ],
-          goodsGroupDetailData: [
-            {
-              goodsid: "goods_001",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
-              goodsname: "冰生椰丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "椰香清甜，冰润更丝滑",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_002",
-              goodspic: require("assets/img/goods/menugoods/cat2.png"),
-              goodsname: "冰厚乳拿铁",
-              goodstips: null,
-              goodsdesc: "奶味浓醇出众，冰爽一夏",
-              goodsdescfill: null,
-              goodsprice_new: 16,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_003",
-              goodspic: require("assets/img/goods/menugoods/cat3.png"),
-              goodsname: "冰海盐芝士厚乳拿铁",
-              goodstips: null,
-              goodsdesc: "奶盖配厚乳，浓醇大满足",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_004",
-              goodspic: require("assets/img/goods/menugoods/cat4.png"),
-              goodsname: "冰丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "冰的刚刚好，一口丝滑滑滑",
-              goodsdescfill: null,
-              goodsprice_new: 18,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_005",
-              goodspic: require("assets/img/goods/menugoods/cat5.png"),
-              goodsname: "陨石厚乳拿铁",
-              goodstips: null,
-              goodsdesc: "Q弹陨石入醇厚奶香",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_006",
-              goodspic: require("assets/img/goods/menugoods/cat6.png"),
-              goodsname: "冰香草丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "冰一下，香草风味更浓郁",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_007",
-              goodspic: require("assets/img/goods/menugoods/cat7.png"),
-              goodsname: "橘金气泡咖啡",
-              goodstips: null,
-              goodsdesc: "个性特调 | 奶咖控谨慎尝新",
-              goodsdescfill: "0糖0脂0能量，回归榜人气TOP1",
-              goodsprice_new: 18,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_008",
-              goodspic: require("assets/img/goods/menugoods/cat8.png"),
-              goodsname: "西柚气泡咖啡",
-              goodstips: null,
-              goodsdesc: "个性特调 | 奶咖控谨慎尝新",
-              goodsdescfill: "0糖0脂0能量",
-              goodsprice_new: 18,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_009",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
-              goodsname: "耶加雪菲 • 冰美式",
-              goodstips: null,
-              goodsdesc: "明亮柑橘调，加冰后风味更明显",
-              goodsdescfill: null,
-              goodsprice_new: 17,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_010",
-              goodspic: require("assets/img/goods/menugoods/cat2.png"),
-              goodsname: "冰标准美式",
-              goodstips: null,
-              goodsdesc: "0脂低卡 | 冰爽香醇",
-              goodsdescfill: null,
-              goodsprice_new: 13,
-              goodsprice_old: 23,
               goodsSelected: false,
               goodspieces: null
             }
@@ -836,8 +723,8 @@ export default {
               goodsdescfill: null,
               goodsprice_new: 19,
               goodsprice_old: 29,
-              goodsSelected: true,
-              goodspieces: 2
+              goodsSelected: false,
+              goodspieces: null
             },
             {
               goodsid: "goods_002",
@@ -908,92 +795,6 @@ export default {
               goodsdescfill: null,
               goodsprice_new: 19,
               goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            }
-          ]
-        },
-        {
-          goodsGroupId: "menutype_008",
-          goodsGroupName: "丝绒拿铁",
-          goodsGroupDesc: null,
-          goodsGroupTypeType: [
-            {
-              goodsGroupTypeTypeId: null,
-              goodsGroupTypeTypeName: null,
-              goodsGroupTypeTypeNumber: null
-            }
-          ],
-          goodsGroupDetailData: [
-            {
-              goodsid: "goods_004",
-              goodspic: require("assets/img/goods/menugoods/cat4.png"),
-              goodsname: "冰丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "冰的刚刚好，一口丝滑滑滑",
-              goodsdescfill: null,
-              goodsprice_new: 18,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_006",
-              goodspic: require("assets/img/goods/menugoods/cat6.png"),
-              goodsname: "丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "超丝滑 | 年度重磅，丝滑感提升",
-              goodsdescfill: "20.99%",
-              goodsprice_new: 18,
-              goodsprice_old: 29,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_001",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
-              goodsname: "冰生椰丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "椰香清甜，冰润更丝滑",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_008",
-              goodspic: require("assets/img/goods/menugoods/cat8.png"),
-              goodsname: "生椰丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "双爆款 | 一口椰香一口丝滑",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_002",
-              goodspic: require("assets/img/goods/menugoods/cat2.png"),
-              goodsname: "冲绳黑糖丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "老爆款升级，口感更丝滑",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 32,
-              goodsSelected: false,
-              goodspieces: null
-            },
-            {
-              goodsid: "goods_003",
-              goodspic: require("assets/img/goods/menugoods/cat3.png"),
-              goodsname: "香草丝绒拿铁",
-              goodstips: null,
-              goodsdesc: "丝滑香甜，源自马达加斯加香草",
-              goodsdescfill: null,
-              goodsprice_new: 19,
-              goodsprice_old: 29,
               goodsSelected: false,
               goodspieces: null
             }

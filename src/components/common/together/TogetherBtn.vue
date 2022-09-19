@@ -48,6 +48,6 @@ export default {
   text-align: left;
   display: inline-block;
   height: 28px;
-  line-height: 28px;
+  line-height: 30px;
 }
 </style>

@@ -37,22 +37,22 @@ export default {
       default() {
         return [
           {
-            goodsname: "富桂厚乳拿铁",
-            pricename: "券后价",
-            newprice: 14.4,
-            oldprice: 32
-          },
-          {
-            goodsname: "生椰拿铁",
-            pricename: "券后价",
-            newprice: 13.05,
+            goodsname: "椰云拿铁",
+            pricename: "新人价",
+            newprice: 9,
             oldprice: 29
           },
           {
-            goodsname: "偷心西梅拿铁",
-            pricename: "券后价",
-            newprice: 14.4,
-            oldprice: 32
+            goodsname: "生椰拿铁",
+            pricename: "新人价",
+            newprice: 9,
+            oldprice: 29
+          },
+          {
+            goodsname: "厚乳拿铁",
+            pricename: "新人价",
+            newprice: 9,
+            oldprice: 29
           }
         ]
       }

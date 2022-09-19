@@ -1,5 +1,5 @@
 <template>
-  <div class="goods-group-title">
+  <div class="goods-group-title" v-show="goodsGroupTitleData.goodsGroupName">
     <div class="goods-group-title-sticky">
       <div class="goods-group-item-type-text">
         <div class="goods-group-item-type-name">
