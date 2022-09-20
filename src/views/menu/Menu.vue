@@ -208,70 +208,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat1_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -289,70 +284,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat2_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -370,87 +360,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat3_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "0卡糖",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "0卡糖",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "少少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -468,70 +454,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat4_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -549,30 +530,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat5_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -590,70 +564,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat6_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐|微甜"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐|微甜",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -671,70 +640,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat7_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -752,87 +716,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat8_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐|微甜"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐|微甜",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             }
           ]
@@ -864,87 +824,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat3_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "0卡糖",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "0卡糖",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "少少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -962,70 +918,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat6_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐|微甜"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐|微甜",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1043,64 +994,59 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat4_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1118,81 +1064,77 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat1_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1210,87 +1152,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat8_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐|微甜"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐|微甜",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1308,87 +1246,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat2_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "0卡糖",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "0卡糖",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "少少甜",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1406,87 +1340,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat2_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "0卡糖",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "0卡糖",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "少少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             }
           ]
@@ -1523,30 +1453,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat1_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1564,30 +1487,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat2_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1600,7 +1516,29 @@ export default {
               goodsprice_new: 18,
               goodsprice_old: 29,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: [
+                  require("assets/img/sell/goodspic/goods_cat3_m.png")
+                ],
+                goodssellinfopic: [
+                  require("assets/img/sell/goodsinfopic/goodsinfo.png")
+                ],
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  }
+                ]
+              }
             },
 
             {
@@ -1613,7 +1551,29 @@ export default {
               goodsprice_new: 20,
               goodsprice_old: 32,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: [
+                  require("assets/img/sell/goodspic/goods_cat4_m.png")
+                ],
+                goodssellinfopic: [
+                  require("assets/img/sell/goodsinfopic/goodsinfo.png")
+                ],
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               goodsid: "goods_005",
@@ -1625,7 +1585,29 @@ export default {
               goodsprice_new: 22,
               goodsprice_old: 35,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: [
+                  require("assets/img/sell/goodspic/goods_cat5_m.png")
+                ],
+                goodssellinfopic: [
+                  require("assets/img/sell/goodsinfopic/goodsinfo.png")
+                ],
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               goodsid: "goods_006",
@@ -1642,30 +1624,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat6_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1683,30 +1658,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat7_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1824,70 +1792,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat1_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1905,70 +1868,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat2_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -1986,87 +1944,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat3_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐|微甜"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐|微甜",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
-                  },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -2096,30 +2050,23 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat6_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: null,
-                  goodstemp: null,
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -2161,81 +2108,83 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat8_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
-                      }
-                    ]
-                  },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
-                      {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "少甜",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
-                      },
-                      {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "少少甜",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodscream: {
-                    goodsboxsizeid: "goodsselltype_04",
-                    goodsboxsizename: "奶油",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_01",
-                        goodsboxsizetypename: "无奶油",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_04_02",
-                        goodsboxsizetypename: "加奶油3元",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      }
+                    ]
+                  }
+                ]
               }
             },
             {
@@ -2280,70 +2229,65 @@ export default {
                 goodssellpic: [
                   require("assets/img/sell/goodspic/goods_cat4_m.png")
                 ],
-                goodssellpic: [
+                goodssellinfopic: [
                   require("assets/img/sell/goodsinfopic/goodsinfo.png")
                 ],
-                goodsselltype: {
-                  goodsboxsize: {
-                    goodsboxsizeid: "goodsselltype_01",
-                    goodsboxsizename: "杯型",
-                    goodsboxsizedata: [
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_01_01",
-                        goodsboxsizetypename: "大杯",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       }
                     ]
                   },
-                  goodstemp: {
-                    goodsboxsizeid: "goodsselltype_02",
-                    goodsboxsizename: "温度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_01",
-                        goodsboxsizetypename: "冰",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_02_02",
-                        goodsboxsizetypename: "热",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
-                  goodssugar: {
-                    goodsboxsizeid: "goodsselltype_03",
-                    goodsboxsizename: "糖度",
-                    goodsboxsizedata: [
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_01",
-                        goodsboxsizetypename: "标准糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_02",
-                        goodsboxsizetypename: "半糖",
-                        goodsboxsizetypemake: null,
-                        goodsboxsizetypeselected: false
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
                       },
                       {
-                        goodsboxsizetypeid: "goodsselltype_03_03",
-                        goodsboxsizetypename: "不另外加糖",
-                        goodsboxsizetypemake: ["推荐"],
-                        goodsboxsizetypeselected: true
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "不另外加糖",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
                       }
                     ]
-                  },
-                  goodscream: null,
-                  goodmilk: null,
-                  goodoptions1: null,
-                  goodoptions2: null,
-                  goodoptions3: null
-                }
+                  }
+                ]
               }
             },
             {
@@ -2442,7 +2386,71 @@ export default {
               goodsprice_new: 15,
               goodsprice_old: 26,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: [
+                  require("assets/img/sell/goodspic/goods_cat1_m.png")
+                ],
+                goodssellinfopic: [
+                  require("assets/img/sell/goodsinfopic/goodsinfo.png")
+                ],
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  },
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      }
+                    ]
+                  },
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "无需加糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "半份糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "单份糖",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               goodsid: "goods_002",
@@ -2454,7 +2462,89 @@ export default {
               goodsprice_new: 17,
               goodsprice_old: 29,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: [
+                  require("assets/img/sell/goodspic/goods_cat2_m.png")
+                ],
+                goodssellinfopic: [
+                  require("assets/img/sell/goodsinfopic/goodsinfo.png")
+                ],
+                goodsselltype: [
+                  {
+                    goodsselltypeId: "goodsselltype_01",
+                    goodsselltypeName: "杯型",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_01_01",
+                        goodsselltypeDetailName: "大杯",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      }
+                    ]
+                  },
+                  {
+                    goodsselltypeId: "goodsselltype_02",
+                    goodsselltypeName: "温度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_02_01",
+                        goodsselltypeDetailName: "冰",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_02_02",
+                        goodsselltypeDetailName: "热",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      }
+                    ]
+                  },
+                  {
+                    goodsselltypeId: "goodsselltype_03",
+                    goodsselltypeName: "糖度",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_01",
+                        goodsselltypeDetailName: "标准甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_02",
+                        goodsselltypeDetailName: "少甜",
+                        goodsselltypeDetailMark: "推荐",
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_03_03",
+                        goodsselltypeDetailName: "少少甜",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      }
+                    ]
+                  },
+                  {
+                    goodsselltypeId: "goodsselltype_04",
+                    goodsselltypeName: "奶油",
+                    goodsselltypeDetails: [
+                      {
+                        goodsselltypeDetailId: "goodsselltype_04_01",
+                        goodsselltypeDetailName: "无奶油",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: true
+                      },
+                      {
+                        goodsselltypeDetailId: "goodsselltype_04_02",
+                        goodsselltypeDetailName: "加奶油3元",
+                        goodsselltypeDetailMark: null,
+                        goodsselltypeDetailSelect: false
+                      }
+                    ]
+                  }
+                ]
+              }
             },
             {
               goodsid: "goods_003",

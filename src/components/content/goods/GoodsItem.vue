@@ -69,16 +69,20 @@ export default {
           goodssellinfo: {
             goodssellpic: null,
             goodsinfopic: null,
-            goodsselltype: {
-              goodsboxsize: null,
-              goodstemp: null,
-              goodssugar: null,
-              goodscream: null,
-              goodmilk: null,
-              goodoptions1: null,
-              goodoptions2: null,
-              goodoptions3: null
-            }
+            goodsselltype: [
+              {
+                goodsselltypeId: null,
+                goodsselltypeName: null,
+                goodsselltypeDetails: [
+                  {
+                    goodsselltypeDetailId: null,
+                    goodsselltypeDetailName: null,
+                    goodsselltypeDetailMark: null,
+                    goodsselltypeDetailSelect: false
+                  }
+                ]
+              }
+            ]
           }
         }
       }
@@ -135,7 +139,8 @@ export default {
   font-size: 10px;
   color: #fff;
   text-align: center;
-  margin: 0 0 0 5px;
+  padding: 1px 5px;
+  margin: 0 0 5px 5px;
 }
 .goods-item-info-desc {
   margin-bottom: 2px;

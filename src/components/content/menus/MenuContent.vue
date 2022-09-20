@@ -45,16 +45,20 @@ export default {
                 goodssellinfo: {
                   goodssellpic: null,
                   goodsinfopic: null,
-                  goodsselltype: {
-                    goodsboxsize: null,
-                    goodstemp: null,
-                    goodssugar: null,
-                    goodscream: null,
-                    goodmilk: null,
-                    goodoptions1: null,
-                    goodoptions2: null,
-                    goodoptions3: null
-                  }
+                  goodsselltype: [
+                    {
+                      goodsselltypeId: null,
+                      goodsselltypeName: null,
+                      goodsselltypeDetails: [
+                        {
+                          goodsselltypeDetailId: null,
+                          goodsselltypeDetailName: null,
+                          goodsselltypeDetailMark: null,
+                          goodsselltypeDetailSelect: false
+                        }
+                      ]
+                    }
+                  ]
                 }
               }
             ]

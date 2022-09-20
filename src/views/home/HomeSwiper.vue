@@ -60,7 +60,7 @@ export default {
 .home_swiper img {
   width: 100%;
 }
-.home_swiper >>> .swiper-pagination-bullet-active {
+.home_swiper :deep(.swiper-pagination-bullet-active) {
   background: var(--base-theme-color) !important;
 }
 </style>
