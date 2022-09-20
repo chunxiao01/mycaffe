@@ -7,6 +7,8 @@ const FreeCard = () => import("views/freecard/FreeCard.vue")
 const Order = () => import("views/order/Order.vue")
 const Profile = () => import("views/profile/Profile.vue")
 
+const GoodsSellCard = () => import("views/goods/GoodsSellCard.vue")
+
 const E404 = () => import("views/err/E404.vue")
 
 Vue.use(VueRouter)
@@ -35,6 +37,14 @@ const routes = [
   {
     path: "/profile",
     component: Profile
+  },
+  {
+    path: "/goodssellcard",
+    name: "GoodsSellCard",
+    component: GoodsSellCard,
+    meta: {
+      hideTabBar: true
+    }
   },
   {
     path: "*",

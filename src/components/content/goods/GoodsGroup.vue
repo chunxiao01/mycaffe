@@ -76,6 +76,8 @@ export default {
             {
               goodsid: null,
               goodspic: null,
+              goodssellpic: null,
+              goodsinfopic: null,
               goodsname: null,
               goodstips: null,
               goodsdesc: null,
@@ -83,7 +85,21 @@ export default {
               goodsprice_new: null,
               goodsprice_old: null,
               goodsSelected: false,
-              goodspieces: null
+              goodspieces: null,
+              goodssellinfo: {
+                goodssellpic: null,
+                goodsinfopic: null,
+                goodsselltype: {
+                  goodsboxsize: null,
+                  goodstemp: null,
+                  goodssugar: null,
+                  goodscream: null,
+                  goodmilk: null,
+                  goodoptions1: null,
+                  goodoptions2: null,
+                  goodoptions3: null
+                }
+              }
             }
           ]
         }

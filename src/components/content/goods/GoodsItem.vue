@@ -1,5 +1,5 @@
 <template>
-  <div class="goods-item">
+  <div class="goods-item" @click="goodsItemSellClick">
     <div class="goods-item-img">
       <img v-lazy="goodsItemData.goodspic" alt="" />
     </div>
@@ -65,8 +65,34 @@ export default {
           goodsprice_new: null,
           goodsprice_old: null,
           goodsSelected: false,
-          goodspieces: null
+          goodspieces: null,
+          goodssellinfo: {
+            goodssellpic: null,
+            goodsinfopic: null,
+            goodsselltype: {
+              goodsboxsize: null,
+              goodstemp: null,
+              goodssugar: null,
+              goodscream: null,
+              goodmilk: null,
+              goodoptions1: null,
+              goodoptions2: null,
+              goodoptions3: null
+            }
+          }
         }
+      }
+    }
+  },
+  methods: {
+    goodsItemSellClick() {
+      if (this.goodsItemData.goodsid) {
+        this.$router
+          .push({
+            name: "GoodsSellCard",
+            params: this.goodsItemData
+          })
+          .catch((err) => false)
       }
     }
   }
