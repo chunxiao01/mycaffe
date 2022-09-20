@@ -34,6 +34,19 @@
         <div class="goods-sell-collect-text">收藏口味</div>
       </div>
     </div>
+    <div class="goods-sell-desc-content" v-if="goodsSellData.goodssellinfo">
+      <div class="goods-sell-desc-container">
+        <div class="goods-sell-desc-title">
+          <span class="goods-sell-desc-title-text">商品描述</span>
+        </div>
+        <goods-sell-desc
+          :goodsSellDescData="goodsSellData.goodssellinfo.goodssellinfopic"
+        ></goods-sell-desc>
+      </div>
+    </div>
+    <div class="goods-sell-close-page" @click="closePageClick">
+      <close-page></close-page>
+    </div>
   </div>
 </template>
 
@@ -41,7 +54,10 @@
 import { Swiper, SwiperSlide } from "vue-awesome-swiper"
 import "swiper/css/swiper.css"
 
+import ClosePage from "@/components/content/close/ClosePage.vue"
+
 import GoodsSellOption from "./GoodsSellOption.vue"
+import GoodsSellDesc from "./GoodsSellDesc.vue"
 
 export default {
   name: "GoodsSellCard",
@@ -94,10 +110,17 @@ export default {
   created() {
     this.goodsSellData = this.$route.params
   },
+  methods: {
+    closePageClick() {
+      this.$router.go(-1)
+    }
+  },
   components: {
     Swiper,
     SwiperSlide,
-    GoodsSellOption
+    ClosePage,
+    GoodsSellOption,
+    GoodsSellDesc
   }
 }
 </script>
@@ -159,5 +182,32 @@ export default {
   font-size: 12px;
   color: #999;
   background-color: #fff;
+}
+
+.goods-sell-desc-content {
+  width: 100%;
+  padding: 10px;
+}
+.goods-sell-desc-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.goods-sell-desc-title {
+  margin: 10px 0;
+}
+
+.goods-sell-desc-title-text {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000;
+}
+.goods-sell-close-page {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 990;
 }
 </style>

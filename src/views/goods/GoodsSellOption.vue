@@ -13,22 +13,29 @@
       <div class="goods-sell-option-type-content">
         <div
           class="goods-sell-option-type-content-item"
-          v-for="(sonitem, index) in item.goodsselltypeDetails"
+          v-for="(sonitem, sonindex) in item.goodsselltypeDetails"
           :key="sonitem.goodsselltypeDetailId"
         >
           <span
             class="goods-sell-option-type-content-item-text"
             :class="{
               'goods-sell-option-type-content-item-text-selected':
-                sonitem.goodsselltypeDetailSelect
+                getCurrentOptionSelected(index, sonitem.goodsselltypeDetailId)
             }"
+            @click="
+              goodsSellOptionClick(
+                index,
+                sonitem.goodsselltypeDetailId,
+                sonitem.goodsselltypeDetailName
+              )
+            "
             >{{ sonitem.goodsselltypeDetailName }}</span
           >
           <span
             class="goods-sell-option-type-content-item-text-mark"
             :class="{
               'goods-sell-option-type-content-item-text-mark-selected':
-                sonitem.goodsselltypeDetailSelect
+                sonitem.goodsselltypeDetailMark
             }"
             v-if="sonitem.goodsselltypeDetailMark"
             >{{ sonitem.goodsselltypeDetailMark }}</span
@@ -61,6 +68,44 @@ export default {
           }
         ]
       }
+    }
+  },
+  data() {
+    return {
+      currentOptionSelected: []
+    }
+  },
+  created() {
+    this.currentOptionSelected = []
+    this.goodsSellOptionData.forEach((item) => {
+      const currentIndex = item.goodsselltypeDetails.findIndex((item) => {
+        return item.goodsselltypeDetailSelect
+      })
+      this.currentOptionSelected.push({
+        goodsselltypeId: item.goodsselltypeId,
+        goodsselltypeName: item.goodsselltypeName,
+        goodsselltypeDetailSelectedId:
+          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
+        goodsselltypeDetailNameSelected:
+          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
+      })
+    })
+  },
+  methods: {
+    goodsSellOptionClick(typeindex, optionid, optionname) {
+      this.$set(this.currentOptionSelected, typeindex, {
+        goodsselltypeId: this.goodsSellOptionData[typeindex].goodsselltypeId,
+        goodsselltypeName:
+          this.goodsSellOptionData[typeindex].goodsselltypeName,
+        goodsselltypeDetailSelectedId: optionid,
+        goodsselltypeDetailNameSelected: optionname
+      })
+    },
+    getCurrentOptionSelected(typeindex, optionId) {
+      const optionSelected =
+        this.currentOptionSelected[typeindex].goodsselltypeDetailSelectedId ===
+        optionId
+      return optionSelected
     }
   }
 }
