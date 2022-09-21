@@ -127,7 +127,7 @@ export default {
 }
 
 .login-type-wechat {
-  background-color: #2daf77;
+  background-color: #06c05f;
 }
 .login-type-container-mark {
   display: inline-block;

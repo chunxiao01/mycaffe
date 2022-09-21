@@ -42,7 +42,9 @@
         >
       </div>
       <div class="goods-sell-add-cart-action-add">
-        <span class="goods-sell-add-cart-action-add-btn">加入购物车</span>
+        <span class="goods-sell-add-cart-action-add-btn" @click="goodsGotoCart"
+          >加入购物车</span
+        >
       </div>
     </div>
   </div>
@@ -115,6 +117,12 @@ export default {
           name: "Login"
         })
         .catch((err) => false)
+    },
+    goodsGotoCart() {
+      //
+      this.$toast.showCallBack("商品已放入购物车", 500).then(() => {
+        this.$router.go(-1)
+      })
     }
   }
 }
