@@ -126,19 +126,21 @@ export default {
     this.goodsSellData = this.$route.params
 
     let goodsSellOptionData = []
-    this.goodsSellData.goodssellinfo.goodsselltype.forEach((item) => {
-      const currentIndex = item.goodsselltypeDetails.findIndex((item) => {
-        return item.goodsselltypeDetailSelect
+    if (this.goodsSellData.goodssellinfo) {
+      this.goodsSellData.goodssellinfo.goodsselltype.forEach((item) => {
+        const currentIndex = item.goodsselltypeDetails.findIndex((item) => {
+          return item.goodsselltypeDetailSelect
+        })
+        goodsSellOptionData.push({
+          goodsselltypeId: item.goodsselltypeId,
+          goodsselltypeName: item.goodsselltypeName,
+          goodsselltypeDetailSelectedId:
+            item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
+          goodsselltypeDetailNameSelected:
+            item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
+        })
       })
-      goodsSellOptionData.push({
-        goodsselltypeId: item.goodsselltypeId,
-        goodsselltypeName: item.goodsselltypeName,
-        goodsselltypeDetailSelectedId:
-          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
-        goodsselltypeDetailNameSelected:
-          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
-      })
-    })
+    }
     this.goodsSellAddCartData = {
       goodsid: this.goodsSellData.goodsid,
       goodsname: this.goodsSellData.goodsname,

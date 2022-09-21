@@ -37,7 +37,9 @@
     <div class="goods-sell-add-cart-name">{{ goodSellAddCartName }}</div>
     <div class="goods-sell-add-cart-action">
       <div class="goods-sell-add-cart-action-buy">
-        <span class="goods-sell-add-cart-action-buy-btn">立即购买</span>
+        <span class="goods-sell-add-cart-action-buy-btn" @click="goodsGoToBuy"
+          >立即购买</span
+        >
       </div>
       <div class="goods-sell-add-cart-action-add">
         <span class="goods-sell-add-cart-action-add-btn">加入购物车</span>
@@ -106,6 +108,13 @@ export default {
         return false
       }
       this.goodspieces++
+    },
+    goodsGoToBuy() {
+      this.$router
+        .push({
+          name: "Login"
+        })
+        .catch((err) => false)
     }
   }
 }
