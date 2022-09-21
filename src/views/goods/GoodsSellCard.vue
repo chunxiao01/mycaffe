@@ -21,6 +21,7 @@
         <div class="goods-sell-option-content">
           <goods-sell-option
             :goodsSellOptionData="goodsSellData.goodssellinfo.goodsselltype"
+            @getGoodsSellOption="getGoodsSellOption"
           ></goods-sell-option>
         </div>
       </div>
@@ -47,6 +48,11 @@
     <div class="goods-sell-close-page" @click="closePageClick">
       <close-page></close-page>
     </div>
+    <div class="good-sell-cart-content" v-if="goodsSellData.goodssellinfo">
+      <goods-sell-add-cart
+        :goodsSellAddCartData="goodsSellAddCartData"
+      ></goods-sell-add-cart>
+    </div>
   </div>
 </template>
 
@@ -58,6 +64,7 @@ import ClosePage from "@/components/content/close/ClosePage.vue"
 
 import GoodsSellOption from "./GoodsSellOption.vue"
 import GoodsSellDesc from "./GoodsSellDesc.vue"
+import GoodsSellAddCart from "./GoodsSellAddCart.vue"
 
 export default {
   name: "GoodsSellCard",
@@ -104,15 +111,56 @@ export default {
           dynamicBullets: true
         }
       },
+      goodsSellAddCartData: {
+        goodsid: null,
+        goodsname: null,
+        goodsprice_new: null,
+        goodsprice_old: null,
+        goodsprice_pre: null,
+        goodsoptionselected: null
+      },
       isGoodsCollected: false
     }
   },
   created() {
     this.goodsSellData = this.$route.params
+
+    let goodsSellOptionData = []
+    this.goodsSellData.goodssellinfo.goodsselltype.forEach((item) => {
+      const currentIndex = item.goodsselltypeDetails.findIndex((item) => {
+        return item.goodsselltypeDetailSelect
+      })
+      goodsSellOptionData.push({
+        goodsselltypeId: item.goodsselltypeId,
+        goodsselltypeName: item.goodsselltypeName,
+        goodsselltypeDetailSelectedId:
+          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
+        goodsselltypeDetailNameSelected:
+          item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
+      })
+    })
+    this.goodsSellAddCartData = {
+      goodsid: this.goodsSellData.goodsid,
+      goodsname: this.goodsSellData.goodsname,
+      goodsprice_new: this.goodsSellData.goodsprice_new,
+      goodsprice_old: this.goodsSellData.goodsprice_old,
+      goodsprice_pre: 18,
+      goodsoptionselected: goodsSellOptionData
+    }
   },
   methods: {
     closePageClick() {
       this.$router.go(-1)
+    },
+    getGoodsSellOption(currentOptionSelected) {
+      this.goodsSellAddCartData = {
+        goodsid: this.goodsSellData.goodsid,
+        goodsname: this.goodsSellData.goodsname,
+        goodsprice_new: this.goodsSellData.goodsprice_new,
+        goodsprice_old: this.goodsSellData.goodsprice_old,
+        goodsprice_pre: 18,
+        goodsoptionselected: currentOptionSelected
+      }
     }
   },
   components: {
@@ -120,12 +168,17 @@ export default {
     SwiperSlide,
     ClosePage,
     GoodsSellOption,
-    GoodsSellDesc
+    GoodsSellDesc,
+    GoodsSellAddCart
   }
 }
 </script>
 
 <style scoped>
+.goods-sell-card {
+  width: 100%;
+  overflow: hidden;
+}
 .goods-sell-img {
   width: 100%;
 }
@@ -209,5 +262,13 @@ export default {
   left: 10px;
   top: 10px;
   z-index: 990;
+}
+.good-sell-cart-content {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 990;
+  width: 100%;
+  background-color: #fff;
 }
 </style>

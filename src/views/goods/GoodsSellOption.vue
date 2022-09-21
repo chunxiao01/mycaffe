@@ -100,6 +100,7 @@ export default {
         goodsselltypeDetailSelectedId: optionid,
         goodsselltypeDetailNameSelected: optionname
       })
+      this.$emit("getGoodsSellOption", this.currentOptionSelected)
     },
     getCurrentOptionSelected(typeindex, optionId) {
       const optionSelected =

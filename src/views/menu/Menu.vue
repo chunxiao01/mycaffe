@@ -384,13 +384,13 @@ export default {
                         goodsselltypeDetailId: "goodsselltype_02_01",
                         goodsselltypeDetailName: "冰",
                         goodsselltypeDetailMark: null,
-                        goodsselltypeDetailSelect: false
+                        goodsselltypeDetailSelect: true
                       },
                       {
                         goodsselltypeDetailId: "goodsselltype_02_02",
                         goodsselltypeDetailName: "热",
                         goodsselltypeDetailMark: null,
-                        goodsselltypeDetailSelect: true
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
@@ -400,7 +400,7 @@ export default {
                     goodsselltypeDetails: [
                       {
                         goodsselltypeDetailId: "goodsselltype_03_01",
-                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailName: "标准甜",
                         goodsselltypeDetailMark: null,
                         goodsselltypeDetailSelect: false
                       },
@@ -848,13 +848,13 @@ export default {
                         goodsselltypeDetailId: "goodsselltype_02_01",
                         goodsselltypeDetailName: "冰",
                         goodsselltypeDetailMark: null,
-                        goodsselltypeDetailSelect: false
+                        goodsselltypeDetailSelect: true
                       },
                       {
                         goodsselltypeDetailId: "goodsselltype_02_02",
                         goodsselltypeDetailName: "热",
                         goodsselltypeDetailMark: null,
-                        goodsselltypeDetailSelect: true
+                        goodsselltypeDetailSelect: false
                       }
                     ]
                   },
@@ -864,7 +864,7 @@ export default {
                     goodsselltypeDetails: [
                       {
                         goodsselltypeDetailId: "goodsselltype_03_01",
-                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailName: "标准甜",
                         goodsselltypeDetailMark: null,
                         goodsselltypeDetailSelect: false
                       },
@@ -1286,7 +1286,7 @@ export default {
                     goodsselltypeDetails: [
                       {
                         goodsselltypeDetailId: "goodsselltype_03_01",
-                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailName: "标准甜",
                         goodsselltypeDetailMark: null,
                         goodsselltypeDetailSelect: false
                       },
@@ -1380,7 +1380,7 @@ export default {
                     goodsselltypeDetails: [
                       {
                         goodsselltypeDetailId: "goodsselltype_03_01",
-                        goodsselltypeDetailName: "标准糖",
+                        goodsselltypeDetailName: "标准甜",
                         goodsselltypeDetailMark: "推荐",
                         goodsselltypeDetailSelect: true
                       },

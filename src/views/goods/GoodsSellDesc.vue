@@ -14,9 +14,6 @@ export default {
         return []
       }
     }
-  },
-  mounted() {
-    console.log(this.goodsSellDescData)
   }
 }
 </script>
