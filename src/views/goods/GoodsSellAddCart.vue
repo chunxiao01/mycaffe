@@ -25,11 +25,11 @@
         </div>
       </div>
       <div class="goods-sell-add-cart-number">
-        <span class="goods-sell-add-cart-sub">
+        <span class="goods-sell-add-cart-sub" @click="goodsSellNumSub">
           <img src="~assets/img/common/icons/action_sub.svg" alt="" />
         </span>
         <span class="goods-sell-add-cart-text">{{ goodspieces }}</span>
-        <span class="goods-sell-add-cart-add">
+        <span class="goods-sell-add-cart-add" @click="goodsSellNumAdd">
           <img src="~assets/img/common/icons/action_add.svg" alt="" />
         </span>
       </div>
@@ -92,6 +92,20 @@ export default {
         })
         return name + "￥" + price + option
       }
+    }
+  },
+  methods: {
+    goodsSellNumSub() {
+      if (this.goodspieces < 2) {
+        return false
+      }
+      this.goodspieces--
+    },
+    goodsSellNumAdd() {
+      if (this.goodspieces > 98) {
+        return false
+      }
+      this.goodspieces++
     }
   }
 }
@@ -158,8 +172,8 @@ export default {
 }
 
 .goods-sell-add-cart-name {
-  font-size: 14px;
-  color: #999;
+  font-size: 10px;
+  color: #666;
   margin: 3px 0;
 }
 .goods-sell-add-cart-number {
@@ -183,7 +197,7 @@ export default {
   height: 24px;
   line-height: 24px;
   margin-top: 3px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bolder;
   text-align: center;
 }
