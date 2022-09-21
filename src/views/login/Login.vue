@@ -6,7 +6,7 @@
       </div>
       <div class="login-content">
         <div class="login-content-img">
-          <img src="~assets/img/goods/simplegoods/goods-cat1.png" alt="" />
+          <img src="~assets/img/common/bg/login-bg1.png" alt="" />
         </div>
         <div class="login-type">
           <div class="login-type-container">
@@ -133,7 +133,7 @@ export default {
   display: inline-block;
   padding: 5px;
   border-radius: 20px 20px 20px 0;
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   background-color: #f85631;
   position: absolute;
