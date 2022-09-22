@@ -64,6 +64,9 @@
         </div>
       </div>
     </div>
+    <div class="goods-sell-cart">
+      <cart></cart>
+    </div>
   </div>
 </template>
 
@@ -80,6 +83,8 @@ import Scroll from "@/components/common/scroll/Scroll.vue"
 import MenuGroup from "@/components/content/menus/MenuGroup.vue"
 import MenuContent from "@/components/content/menus/MenuContent.vue"
 import GoodsGroupTitle from "@/components/content/goods/GoodsGroupTitle.vue"
+
+import Cart from "../cart/Cart.vue"
 
 export default {
   name: "Menu",
@@ -2709,7 +2714,8 @@ export default {
     Scroll,
     MenuGroup,
     MenuContent,
-    GoodsGroupTitle
+    GoodsGroupTitle,
+    Cart
   }
 }
 </script>
@@ -2719,6 +2725,7 @@ export default {
   width: 100%;
   height: calc(100vh - 54px);
   overflow: hidden;
+  position: relative;
 }
 .menu-top-container {
   width: 100%;
@@ -2771,5 +2778,13 @@ export default {
   border-radius: 8px;
   padding: 5px;
   position: relative;
+}
+
+.goods-sell-cart {
+  position: fixed;
+  left: 0;
+  bottom: 54px;
+  width: 100%;
+  z-index: 999;
 }
 </style>

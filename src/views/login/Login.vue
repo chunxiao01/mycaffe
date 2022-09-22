@@ -164,13 +164,14 @@ export default {
   height: 16px;
   line-height: 16px;
   margin-left: 3px;
-  margin-top: 1px;
+  margin-top: 3px;
 }
 .login-license-info {
   flex: 1;
 }
 .login-license-text {
   display: inline-block;
+  margin-bottom: 3px;
   height: 16px;
   line-height: 16px;
   font-size: 12px;

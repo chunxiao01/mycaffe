@@ -119,7 +119,7 @@ export default {
 
 .goods-item-info {
   flex: 1;
-  padding: 0 5px;
+  padding: 0 0 0 5px;
 }
 .goods-item-info-name {
   margin-bottom: 5px;

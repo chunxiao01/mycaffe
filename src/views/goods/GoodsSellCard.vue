@@ -48,7 +48,7 @@
     <div class="goods-sell-close-page" @click="closePageClick">
       <close-page></close-page>
     </div>
-    <div class="good-sell-cart-content" v-if="goodsSellData.goodssellinfo">
+    <div class="good-sell-add-cart-content" v-if="goodsSellData.goodssellinfo">
       <goods-sell-add-cart
         :goodsSellAddCartData="goodsSellAddCartData"
       ></goods-sell-add-cart>
@@ -265,7 +265,7 @@ export default {
   top: 10px;
   z-index: 990;
 }
-.good-sell-cart-content {
+.good-sell-add-cart-content {
   position: fixed;
   left: 0;
   bottom: 0;
