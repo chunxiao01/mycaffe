@@ -29,8 +29,15 @@
             <div class="cart-content-on-title">
               <div class="cart-content-on-title-content">
                 <div class="cart-content-on-checkall">
-                  <span class="cart-content-on-checkall-checked"></span>
-                  <span class="cart-content-on-checkall-unchecked"></span>
+                  <span
+                    class="cart-content-on-checkall-checked"
+                    v-if="isCheckedAll"
+                  >
+                    <img src="~assets/img/common/icons/checked2.svg" alt="" />
+                  </span>
+                  <span class="cart-content-on-checkall-unchecked" v-else>
+                    <img src="~assets/img/common/icons/unchecked2.svg" alt=""
+                  /></span>
                   <span class="cart-content-on-checkall-count">
                     <span class="cart-content-on-checkall-count-text"
                       >已选购商品</span
@@ -41,17 +48,34 @@
                   </span>
                 </div>
                 <div class="cart-content-on-clear">
-                  <div class="cart-content-on-clear-btn">
-                    <span class="cart-content-on-clear-icon"></span>
-                    <span class="cart-content-on-clear-text">清空购物车</span>
-                  </div>
+                  <img src="~assets/img/common/icons/clear.svg" alt="" />
+                  <span class="cart-content-on-clear-text">清空购物车</span>
                 </div>
               </div>
+            </div>
+            <div class="cart-content-main">
+              <scroll
+                scrollWrapperName="cartContentScroll"
+                id="cartContentScroll"
+                ref="cartContentScrollRef"
+              >
+                <cart-goods-list>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item></cart-goods-item>
+                </cart-goods-list>
+              </scroll>
             </div>
           </div>
           <div class="cart-content-on-btn">
             <div class="cart-content-on-btn-content">
-              <div class="cart-content-on-img" @click="foldCart">
+              <div class="cart-content-on-img" @click="showCart">
                 <img
                   src="~assets/img/common/icons/shoppingbag.svg"
                   alt=""
@@ -79,12 +103,17 @@
 </template>
 
 <script>
+import Scroll from "@/components/common/scroll/Scroll.vue"
+import CartGoodsList from "./CartGoodsList.vue"
+import CartGoodsItem from "./CartGoodsItem.vue"
+
 export default {
   name: "Cart",
   data() {
     return {
       isflodCart: false,
-      isSHowCartContent: false
+      isSHowCartContent: false,
+      isCheckedAll: true
     }
   },
   methods: {
@@ -93,6 +122,9 @@ export default {
     },
     showCart() {
       this.isSHowCartContent = !this.isSHowCartContent
+      this.$nextTick(() => {
+        this.$refs.cartContentScrollRef.scrollRefresh()
+      })
     },
     cartGoToBuy() {
       this.$router
@@ -101,6 +133,11 @@ export default {
         })
         .catch((err) => false)
     }
+  },
+  components: {
+    Scroll,
+    CartGoodsList,
+    CartGoodsItem
   }
 }
 </script>
@@ -265,5 +302,71 @@ export default {
   width: 100%;
   padding: 10px;
   display: flex;
+}
+
+.cart-content-on-checkall {
+  flex: 1;
+}
+.cart-content-on-checkall-checked,
+.cart-content-on-checkall-unchecked {
+  margin-right: 10px;
+}
+
+.cart-content-on-checkall-checked img,
+.cart-content-on-checkall-unchecked img {
+  width: 24px;
+  vertical-align: middle;
+}
+.cart-content-on-checkall-count {
+  height: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.cart-content-on-checkall-count-text {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-right: 5px;
+}
+.cart-content-on-checkall-count-number {
+  font-size: 14px;
+  font-weight: bolder;
+}
+.cart-content-on-clear {
+  flex: 1;
+  text-align: right;
+}
+
+.cart-content-on-clear img {
+  width: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.cart-content-on-clear-text {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.cart-content-main {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+.cart-content-main ul {
+  margin: 0;
+  padding: 0;
+}
+.cart-content-main ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cartContentScroll {
+  width: 100%;
+  max-height: calc(50vh - 35px);
+  background-color: #fff;
+  overflow: hidden;
 }
 </style>
