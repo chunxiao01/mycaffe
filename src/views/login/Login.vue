@@ -109,7 +109,7 @@ export default {
 }
 .login-type-container {
   width: 100%;
-  padding: 15px;
+  padding: 15px 30px;
   position: relative;
 }
 .login-type-container-text {
@@ -143,7 +143,7 @@ export default {
 
 .login-license {
   width: 100%;
-  padding: 10px;
+  padding: 10px 20px;
   position: fixed;
   left: 0;
   bottom: 20px;
