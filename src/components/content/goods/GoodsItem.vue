@@ -57,8 +57,8 @@ export default {
       default() {
         return {
           goodsid: null,
-          goodspic: null,
           goodsname: null,
+          goodspic: null,
           goodstips: null,
           goodsdesc: null,
           goodsdescfill: null,

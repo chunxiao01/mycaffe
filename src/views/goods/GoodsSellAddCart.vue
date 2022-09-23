@@ -51,6 +51,8 @@
 </template>
 
 <script>
+import { ADD_CART_ACTION } from "@/store/mutations-type"
+
 export default {
   name: "GoodsSellAddCart",
   props: {
@@ -60,6 +62,7 @@ export default {
         return {
           goodsid: null,
           goodsname: null,
+          goodspic: null,
           goodsprice_new: null,
           goodsprice_old: null,
           goodsprice_pre: null,
@@ -96,6 +99,23 @@ export default {
         })
         return name + "￥" + price + option
       }
+    },
+    getCartFinalPrice() {
+      if (this.goodsSellAddCartData.goodsid) {
+        let price = this.goodsSellAddCartData.goodsprice_new
+        let final_price = parseFloat(price)
+        this.goodsSellAddCartData.goodsoptionselected.forEach((item) => {
+          let itemoption = item.goodsselltypeDetailNameSelected
+          const reg = /\d/
+          if (item.goodsselltypeName.indexOf("杯") === -1) {
+            if (reg.test(itemoption)) {
+              const other_price = itemoption.replace(/[^\d]/g, "")
+              final_price += parseFloat(other_price)
+            }
+          }
+        })
+        return final_price
+      }
     }
   },
   methods: {
@@ -119,10 +139,45 @@ export default {
         .catch((err) => false)
     },
     goodsGotoCart() {
-      //
+      //加入购物车
+      const cartGoodsItemData = {
+        goods_final_id: this.goodsFinalId(),
+        goodsid: this.goodsSellAddCartData.goodsid,
+        goodsname: this.goodsSellAddCartData.goodsname,
+        goodspic: this.goodsSellAddCartData.goodspic,
+        goodsoption: this.goodsSellAddCartData.goodsoptionselected,
+        goodsprice_new: this.goodsSellAddCartData.goodsprice_new,
+        goodsprice_old: this.goodsSellAddCartData.goodsprice_old,
+        goodsprice_pre: this.goodsSellAddCartData.goodsprice_pre,
+        goodsprice_off: null,
+        goodsprice_off_number: null,
+        goodsprice_final: this.getCartFinalPrice,
+        goodsprice_coupon: null,
+        goodspiece: this.goodspieces,
+        goodsshoptype: 0,
+        goodschecked: true
+      }
+      const payload = {
+        cartData: cartGoodsItemData,
+        cartDataType: "counts", //购物车商品数量
+        cartcount: this.goodspieces //一次增加多个
+      }
+
+      this.$store.dispatch(ADD_CART_ACTION, payload)
       this.$toast.showCallBack("商品已放入购物车", 500).then(() => {
         this.$router.go(-1)
       })
+    },
+    goodsFinalId() {
+      if (this.goodsSellAddCartData.goodsid) {
+        const id = this.goodsSellAddCartData.goodsid
+        let option_id = []
+        this.goodsSellAddCartData.goodsoptionselected.forEach((item) => {
+          let itemid = item.goodsselltypeDetailIdSelected
+          option_id.push(itemid)
+        })
+        return id + "_" + option_id.join("_")
+      }
     }
   }
 }

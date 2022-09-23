@@ -1,15 +1,21 @@
 import Vue from "vue"
 import Vuex from "vuex"
 
+import mutations from "./mutations"
+import actions from "./actions"
+import getters from "./getters"
+
 Vue.use(Vuex)
 
+const state = {
+  cartDatas: []
+}
+
 const store = new Vuex.Store({
-  state: {
-    s: 123
-  },
-  getters: {},
-  mutations: {},
-  actions: {},
+  state: state,
+  getters: getters,
+  mutations: mutations,
+  actions: actions,
   modules: {}
 })
 

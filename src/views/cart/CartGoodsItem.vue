@@ -1,8 +1,8 @@
 <template>
   <div class="cart-goods-item">
     <div class="cart-goods-item-container">
-      <div class="cart-goods-item-check-btn">
-        <span class="cart-goods-item-check" v-if="isChecked">
+      <div class="cart-goods-item-check-btn" @click="cartCheck">
+        <span class="cart-goods-item-check" v-if="getCartItemChecked">
           <img src="~assets/img/common/icons/checked2.svg" alt="" />
         </span>
         <span class="cart-goods-item-uncheck" v-else>
@@ -11,22 +11,28 @@
       </div>
       <div class="cart-goods-item-info">
         <div class="cart-goods-item-info-img">
-          <img src="~assets/img/goods/menugoods/cat3.png" alt="" />
+          <img v-lazy="CartGoodsItemData.goodspic" alt="" />
         </div>
         <div class="cart-goods-item-info-detail">
           <div class="cart-goods-item-info-detail-name">
-            <span class="cart-goods-item-info-detail-name-text"
-              >青森苹果丝绒拿铁</span
-            >
+            <span class="cart-goods-item-info-detail-name-text">{{
+              CartGoodsItemData.goodsname
+            }}</span>
           </div>
           <div class="cart-goods-item-info-detail-type">
-            <span class="cart-goods-item-info-detail-type-text"
-              >冰/标准甜/加奶油</span
-            >
+            <span class="cart-goods-item-info-detail-type-text">{{
+              getCartGoodsOpton
+            }}</span>
           </div>
           <div class="cart-goods-item-info-detail-price">
-            <span class="cart-goods-item-info-detail-price-new">￥22</span>
-            <span class="cart-goods-item-info-detail-price-old">￥35</span>
+            <span class="cart-goods-item-info-detail-price-new"
+              >￥{{ CartGoodsItemData.goodsprice_final }}</span
+            >
+            <span
+              class="cart-goods-item-info-detail-price-old"
+              v-if="CartGoodsItemData.goodsprice_old"
+              >￥{{ CartGoodsItemData.goodsprice_old }}</span
+            >
           </div>
         </div>
       </div>
@@ -34,37 +40,114 @@
         <span class="cart-goods-item-action-sub" @click="goodsSellNumSub">
           <img src="~assets/img/common/icons/action_sub.svg" alt="" />
         </span>
-        <span class="cart-goods-item-action-number">{{ goodspieces }}</span>
+        <span class="cart-goods-item-action-number">{{
+          getCartItemCount
+        }}</span>
         <span class="cart-goods-item-action-add" @click="goodsSellNumAdd">
           <img src="~assets/img/common/icons/action_add.svg" alt="" />
         </span>
       </div>
     </div>
-    <span class="cart-goods-item-shoptype">仅限门店自取</span>
+    <span
+      class="cart-goods-item-shoptype"
+      v-if="CartGoodsItemData.goodsshoptype"
+      >仅限门店自取</span
+    >
   </div>
 </template>
 
 <script>
+import { ADD_CART_ACTION, CHECK_CART_ACTION } from "@/store/mutations-type"
+
 export default {
   name: "CartGoodsItem",
-  data() {
-    return {
-      isChecked: true,
-      goodspieces: 1
+  props: {
+    CartGoodsItemData: {
+      type: Object,
+      default() {
+        return {
+          goods_final_id: null,
+          goodsid: null,
+          goodsname: null,
+          goodspic: null,
+          goodsoption: null,
+          goodsprice_new: null,
+          goodsprice_old: null,
+          goodsprice_pre: null,
+          goodsprice_off: null,
+          goodsprice_off_number: null,
+          goodsprice_final: null,
+          goodsprice_coupon: null,
+          goodspiece: null,
+          goodsshoptype: null,
+          goodschecked: null
+        }
+      }
+    }
+  },
+  computed: {
+    getCartGoodsOpton() {
+      if (this.CartGoodsItemData.goodsid) {
+        const name = this.CartGoodsItemData.goodsname
+        let price = this.CartGoodsItemData.goodsprice_new
+        let other_price = 0
+        let option_arr = []
+        this.CartGoodsItemData.goodsoption.forEach((item) => {
+          let itemoption = item.goodsselltypeDetailNameSelected
+          const reg = /\d/
+          if (item.goodsselltypeName.indexOf("杯") === -1) {
+            if (reg.test(itemoption)) {
+              other_price = itemoption.replace(/[^\d]/g, "")
+              const optionname = itemoption.replace(/\d/g, "").replace("元", "")
+              // price = parseFloat(price) + parseFloat(other_price)
+              option_arr.push(optionname)
+            } else {
+              option_arr.push(itemoption)
+            }
+          }
+        })
+        return option_arr.join("/")
+      }
+    },
+    getCartItemCount() {
+      return this.CartGoodsItemData.goodspiece
+    },
+    getCartItemChecked() {
+      return this.CartGoodsItemData.goodschecked
     }
   },
   methods: {
+    cartCheck() {
+      const payload = {
+        goods_final_id: this.CartGoodsItemData.goods_final_id,
+        goodschecked: this.CartGoodsItemData.goodschecked
+      }
+      this.$store.dispatch(CHECK_CART_ACTION, payload)
+    },
     goodsSellNumSub() {
       if (this.goodspieces < 2) {
-        return false
+        this.$toast.showCallBack("确定删除该商品吗？", 500).then(() => {
+          this.$toast.showCallBack("已删除!", 500).then(() => {})
+        })
       }
-      this.goodspieces--
+      const payload = {
+        cartData: this.CartGoodsItemData,
+        cartDataType: "one_count", //购物车商品数量
+        cartcount: -1 //一次只减少一个
+      }
+      this.$store.dispatch(ADD_CART_ACTION, payload)
     },
     goodsSellNumAdd() {
       if (this.goodspieces > 98) {
         return false
       }
       this.goodspieces++
+      const payload = {
+        cartData: this.CartGoodsItemData,
+        cartDataType: "one_count", //购物车商品数量
+        cartcount: 1 //一次只增加一个
+      }
+      this.$store.dispatch(ADD_CART_ACTION, payload)
     }
   }
 }

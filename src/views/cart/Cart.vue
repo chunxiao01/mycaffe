@@ -15,7 +15,9 @@
                 alt=""
                 srcset=""
               />
-              <span class="cart-off-number">6</span>
+              <span class="cart-off-number" v-show="getCartCount">{{
+                getCartCount
+              }}</span>
             </div>
           </div>
         </div>
@@ -43,7 +45,7 @@
                       >已选购商品</span
                     >
                     <span class="cart-content-on-checkall-count-number"
-                      >({{ 6 }}件)</span
+                      >({{ getCartCount }}件)</span
                     >
                   </span>
                 </div>
@@ -60,15 +62,11 @@
                 ref="cartContentScrollRef"
               >
                 <cart-goods-list>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
-                  <cart-goods-item></cart-goods-item>
+                  <cart-goods-item
+                    v-for="item in getCartGoodsListData"
+                    :CartGoodsItemData="item"
+                    :key="item.goods_final_id"
+                  ></cart-goods-item>
                 </cart-goods-list>
               </scroll>
             </div>
@@ -81,13 +79,15 @@
                   alt=""
                   srcset=""
                 />
-                <span class="cart-on-number">6</span>
+                <span class="cart-on-number" v-show="getCartCount">{{
+                  getCartCount
+                }}</span>
               </div>
               <div class="cart-content-on-text" @click="showCart">
                 <span class="cart-content-on-text-price"
                   >预计到手
                   <span class="cart-content-on-text-price-number"
-                    >￥{{ 123 }}</span
+                    >￥{{ getCartPrice }}</span
                   ></span
                 >
               </div>
@@ -107,13 +107,30 @@ import Scroll from "@/components/common/scroll/Scroll.vue"
 import CartGoodsList from "./CartGoodsList.vue"
 import CartGoodsItem from "./CartGoodsItem.vue"
 
+import {
+  GET_CART_TOTAL_COUNT,
+  GET_CART_TOTAL_PRICE
+} from "@/store/mutations-type"
+
 export default {
   name: "Cart",
   data() {
     return {
       isflodCart: false,
       isSHowCartContent: false,
-      isCheckedAll: true
+      isCheckedAll: true,
+      CartGoodsListData: []
+    }
+  },
+  computed: {
+    getCartCount() {
+      return this.$store.getters[GET_CART_TOTAL_COUNT]
+    },
+    getCartPrice() {
+      return this.$store.getters[GET_CART_TOTAL_PRICE]
+    },
+    getCartGoodsListData() {
+      return this.$store.state.cartDatas
     }
   },
   methods: {

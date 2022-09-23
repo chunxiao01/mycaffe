@@ -114,6 +114,7 @@ export default {
       goodsSellAddCartData: {
         goodsid: null,
         goodsname: null,
+        goodspic: null,
         goodsprice_new: null,
         goodsprice_old: null,
         goodsprice_pre: null,
@@ -134,7 +135,7 @@ export default {
         goodsSellOptionData.push({
           goodsselltypeId: item.goodsselltypeId,
           goodsselltypeName: item.goodsselltypeName,
-          goodsselltypeDetailSelectedId:
+          goodsselltypeDetailIdSelected:
             item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
           goodsselltypeDetailNameSelected:
             item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
@@ -144,6 +145,7 @@ export default {
     this.goodsSellAddCartData = {
       goodsid: this.goodsSellData.goodsid,
       goodsname: this.goodsSellData.goodsname,
+      goodspic: this.goodsSellData.goodspic,
       goodsprice_new: this.goodsSellData.goodsprice_new,
       goodsprice_old: this.goodsSellData.goodsprice_old,
       goodsprice_pre: 18,
@@ -158,6 +160,7 @@ export default {
       this.goodsSellAddCartData = {
         goodsid: this.goodsSellData.goodsid,
         goodsname: this.goodsSellData.goodsname,
+        goodspic: this.goodsSellData.goodspic,
         goodsprice_new: this.goodsSellData.goodsprice_new,
         goodsprice_old: this.goodsSellData.goodsprice_old,
         goodsprice_pre: 18,

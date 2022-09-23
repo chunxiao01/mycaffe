@@ -84,7 +84,7 @@ export default {
       this.currentOptionSelected.push({
         goodsselltypeId: item.goodsselltypeId,
         goodsselltypeName: item.goodsselltypeName,
-        goodsselltypeDetailSelectedId:
+        goodsselltypeDetailIdSelected:
           item.goodsselltypeDetails[currentIndex].goodsselltypeDetailId,
         goodsselltypeDetailNameSelected:
           item.goodsselltypeDetails[currentIndex].goodsselltypeDetailName
@@ -97,14 +97,14 @@ export default {
         goodsselltypeId: this.goodsSellOptionData[typeindex].goodsselltypeId,
         goodsselltypeName:
           this.goodsSellOptionData[typeindex].goodsselltypeName,
-        goodsselltypeDetailSelectedId: optionid,
+        goodsselltypeDetailIdSelected: optionid,
         goodsselltypeDetailNameSelected: optionname
       })
       this.$emit("getGoodsSellOption", this.currentOptionSelected)
     },
     getCurrentOptionSelected(typeindex, optionId) {
       const optionSelected =
-        this.currentOptionSelected[typeindex].goodsselltypeDetailSelectedId ===
+        this.currentOptionSelected[typeindex].goodsselltypeDetailIdSelected ===
         optionId
       return optionSelected
     }
