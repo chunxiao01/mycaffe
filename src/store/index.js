@@ -10,6 +10,86 @@ Vue.use(Vuex)
 
 const state = {
   cartDatas: [],
+  goodsTypeDatas: [
+    {
+      menutypeid: "menutype_001",
+      menutypename: "人气TOP",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_008",
+      menutypename: "丝绒一周年",
+      menutypekey: true,
+      menutypekeyname: "青森"
+    },
+    {
+      menutypeid: "menutype_002",
+      menutypename: "小黑杯",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_005",
+      menutypename: "水果冰萃",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_006",
+      menutypename: "生椰家族",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_007",
+      menutypename: "厚乳拿铁",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_009",
+      menutypename: "经典拿铁",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_010",
+      menutypename: "瑞纳冰®",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_011",
+      menutypename: "大师咖啡",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_012",
+      menutypename: "不喝咖啡",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_013",
+      menutypename: "甜品小点",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_014",
+      menutypename: "烘焙轻食",
+      menutypekey: false,
+      menutypekeyname: null
+    },
+    {
+      menutypeid: "menutype_015",
+      menutypename: "经典饮品",
+      menutypekey: false,
+      menutypekeyname: null
+    }
+  ],
   goodsDatas: [
     {
       goodsGroupId: "menutype_001",

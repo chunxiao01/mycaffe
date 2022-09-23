@@ -2,7 +2,8 @@ import {
   ADD_CART,
   ADD_CART_GOODS_COUNTS,
   CHECK_CART,
-  CHECK_CART_ALL
+  CHECK_CART_ALL,
+  CLEAR_CART
 } from "./mutations-type"
 
 export default {
@@ -24,5 +25,15 @@ export default {
     if (state.cartDatas && state.cartDatas[payload.index]) {
       state.cartDatas[payload.index].goodschecked = !payload.checked
     }
+  },
+  [CHECK_CART_ALL](state, payload) {
+    //全选
+    state.cartDatas.forEach((item) => {
+      item.goodschecked = !payload.checkall
+    })
+  },
+  [CLEAR_CART](state) {
+    //清空
+    state.cartDatas = []
   }
 }

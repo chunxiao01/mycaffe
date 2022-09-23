@@ -9,7 +9,7 @@
           <img src="~assets/img/common/icons/unchecked2.svg" alt="" />
         </span>
       </div>
-      <div class="cart-goods-item-info">
+      <div class="cart-goods-item-info" @click="goToGoodsSellCard">
         <div class="cart-goods-item-info-img">
           <img v-lazy="CartGoodsItemData.goodspic" alt="" />
         </div>
@@ -125,11 +125,6 @@ export default {
       this.$store.dispatch(CHECK_CART_ACTION, payload)
     },
     goodsSellNumSub() {
-      if (this.goodspieces < 2) {
-        this.$toast.showCallBack("确定删除该商品吗？", 500).then(() => {
-          this.$toast.showCallBack("已删除!", 500).then(() => {})
-        })
-      }
       const payload = {
         cartData: this.CartGoodsItemData,
         cartDataType: "one_count", //购物车商品数量
@@ -148,6 +143,9 @@ export default {
         cartcount: 1 //一次只增加一个
       }
       this.$store.dispatch(ADD_CART_ACTION, payload)
+    },
+    goToGoodsSellCard() {
+      console.log(123456)
     }
   }
 }
@@ -168,7 +166,7 @@ export default {
   width: 24px;
   height: 72px;
   line-height: 72px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .cart-goods-item-check img,
 .cart-goods-item-uncheck img {

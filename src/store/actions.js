@@ -2,8 +2,12 @@ import {
   ADD_CART,
   ADD_CART_GOODS_COUNTS,
   CHECK_CART,
+  CHECK_CART_ALL,
+  CLEAR_CART,
   ADD_CART_ACTION,
-  CHECK_CART_ACTION
+  CHECK_CART_ACTION,
+  CHECK_CART_ALL_ACTION,
+  CLEAR_CART_ACTION
 } from "./mutations-type"
 
 export default {
@@ -34,5 +38,11 @@ export default {
       }
       context.commit(CHECK_CART, action_payload)
     }
+  },
+  [CHECK_CART_ALL_ACTION](context, payload) {
+    context.commit(CHECK_CART_ALL, payload)
+  },
+  [CLEAR_CART_ACTION](context) {
+    context.commit(CLEAR_CART)
   }
 }

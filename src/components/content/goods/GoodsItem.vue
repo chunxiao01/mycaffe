@@ -1,5 +1,9 @@
 <template>
-  <div class="goods-item" @click="goodsItemSellClick">
+  <div
+    class="goods-item"
+    @click="goodsItemSellClick"
+    v-if="goodsItemData.goodsid"
+  >
     <div class="goods-item-img">
       <img v-lazy="goodsItemData.goodspic" alt="" />
     </div>

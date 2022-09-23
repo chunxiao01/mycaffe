@@ -30,10 +30,10 @@
           <div class="cart-content-on-container" v-show="isSHowCartContent">
             <div class="cart-content-on-title">
               <div class="cart-content-on-title-content">
-                <div class="cart-content-on-checkall">
+                <div class="cart-content-on-checkall" @click="cartCheckAll">
                   <span
                     class="cart-content-on-checkall-checked"
-                    v-if="isCheckedAll"
+                    v-if="getCartCheckAll"
                   >
                     <img src="~assets/img/common/icons/checked2.svg" alt="" />
                   </span>
@@ -49,7 +49,7 @@
                     >
                   </span>
                 </div>
-                <div class="cart-content-on-clear">
+                <div class="cart-content-on-clear" @click="cartClear">
                   <img src="~assets/img/common/icons/clear.svg" alt="" />
                   <span class="cart-content-on-clear-text">清空购物车</span>
                 </div>
@@ -109,7 +109,10 @@ import CartGoodsItem from "./CartGoodsItem.vue"
 
 import {
   GET_CART_TOTAL_COUNT,
-  GET_CART_TOTAL_PRICE
+  GET_CART_TOTAL_PRICE,
+  GET_CART_ALL_CHECK,
+  CHECK_CART_ALL_ACTION,
+  CLEAR_CART_ACTION
 } from "@/store/mutations-type"
 
 export default {
@@ -131,6 +134,10 @@ export default {
     },
     getCartGoodsListData() {
       return this.$store.state.cartDatas
+    },
+    getCartCheckAll() {
+      //是否选择所有商品
+      return this.$store.getters[GET_CART_ALL_CHECK]
     }
   },
   methods: {
@@ -149,6 +156,17 @@ export default {
           name: "Login"
         })
         .catch((err) => false)
+    },
+    cartCheckAll() {
+      //全选
+      const payload = {
+        checkall: this.getCartCheckAll
+      }
+      this.$store.dispatch(CHECK_CART_ALL_ACTION, payload)
+    },
+    cartClear() {
+      //清空购物车
+      this.$store.dispatch(CLEAR_CART_ACTION)
     }
   },
   components: {
@@ -326,7 +344,7 @@ export default {
 }
 .cart-content-on-checkall-checked,
 .cart-content-on-checkall-unchecked {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .cart-content-on-checkall-checked img,

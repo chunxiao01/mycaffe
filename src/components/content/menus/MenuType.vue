@@ -1,5 +1,5 @@
 <template>
-  <div class="menu-type">
+  <div class="menu-type" v-if="menutypedata.menutypeid">
     <span
       class="menu-type-text"
       :class="{ 'menu-type-text-selected': isMenuTypeSelected }"
