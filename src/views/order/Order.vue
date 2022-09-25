@@ -186,8 +186,7 @@ export default {
 
 .order-title {
   width: 100%;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
   color: #000;
   background-color: var(--base-theme-bg-color);
   padding: 10px;
@@ -196,7 +195,7 @@ export default {
 }
 .order-control {
   background-color: var(--base-theme-bg-color);
-  padding: 10px;
+  padding: 0 10px 10px 0;
   position: relative;
   z-index: 1;
 }

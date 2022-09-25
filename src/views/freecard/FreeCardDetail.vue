@@ -238,9 +238,9 @@ export default {
 .free-card-detail-item-title-text {
   display: inline-block;
   width: 40px;
-  height: 24px;
-  line-height: 24px;
-  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
   background-color: #caa97b;
   color: #fffcf7;
   border-radius: 8px 0 8px 0;
@@ -255,13 +255,13 @@ export default {
   padding: 0 5px;
 }
 .free-card-detail-item-text-name {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #000;
   margin-bottom: 5px;
 }
 .free-card-detail-item-text-price {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   color: #f85931;
 }
@@ -269,18 +269,18 @@ export default {
   width: 18px;
 }
 .free-card-detail-item-content-text-detail {
-  font-size: 16px;
+  font-size: 13px;
   color: #000;
 }
 .free-card-detail-item-img {
-  width: 100px;
+  width: 120px;
   padding: 0 5px;
 }
 .free-card-detail-item-img img {
-  width: 90px;
+  width: 100px;
 }
 .free-card-detail-item-img-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
   color: var(--base-theme-color);
 }

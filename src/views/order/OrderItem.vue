@@ -112,10 +112,10 @@ export default {
   margin-bottom: 10px;
 }
 .order-item-title-shoptype {
-  width: 32px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 12px;
+  width: 28px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 11px;
   color: #fffbf4;
   background-color: #c0a278;
   text-align: center;
@@ -123,16 +123,16 @@ export default {
 }
 .order-item-title-address {
   flex: 1;
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 13px;
   color: #000;
 }
 .order-item-title-state {
   width: 50px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 13px;
   color: #000;
   text-align: center;
 }
@@ -140,20 +140,18 @@ export default {
 .order-item-content {
   width: 100%;
   padding: 5px 0 10px 0;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 10px;
 }
 .order-item-content-goods-info {
   width: 100%;
   display: flex;
 }
 .order-item-content-goods-info-img {
-  width: 60px;
+  width: 45px;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .order-item-content-goods-info-img img {
-  width: 60px;
+  width: 45px;
 }
 .order-item-content-goods-info-name {
   flex: 1;
@@ -161,19 +159,20 @@ export default {
 }
 .order-item-content-goods-info-name-text {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   color: #000;
+  margin-bottom: 5px;
 }
 .order-item-content-goods-info-option {
   display: block;
-  font-size: 16px;
+  font-size: 13px;
   color: #a1a1a1;
   margin: auto;
 }
 .order-item-content-goods-info-count {
   width: 30px;
-  font-size: 18px;
+  font-size: 15px;
   color: #a1a1a1;
   text-align: center;
   margin: auto;
@@ -182,7 +181,9 @@ export default {
 .order-item-order {
   width: 100%;
   display: flex;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #ccc;
 }
 .order-item-order-time {
   flex: 1;
@@ -211,12 +212,12 @@ export default {
 .order-item-action-btn-again,
 .order-item-action-btn-invoice {
   display: inline-block;
-  width: 80px;
+  width: 70px;
   height: 24px;
   line-height: 24px;
   border-radius: 20px;
   border: 1px solid var(--base-theme-color);
-  font-size: 14px;
+  font-size: 13px;
   color: var(--base-theme-color);
   text-align: center;
   margin: 0 5px;

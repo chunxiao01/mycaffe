@@ -73,7 +73,7 @@ export default {
   padding: 10px 0 0 0;
   height: 40px;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #282828;
   text-align: center;
@@ -91,7 +91,7 @@ export default {
   color: #646464;
 }
 .free-card-price-item-price-new-number {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   color: #646464;
 }
@@ -108,7 +108,7 @@ export default {
   color: #d9d9d9;
 }
 .free-card-price-item-price-old-number {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   color: #d9d9d9;
 }
@@ -116,7 +116,7 @@ export default {
   width: 100%;
   text-align: center;
   background-color: #ecd6b2;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   color: #6e4c11;
   padding: 5px 0;

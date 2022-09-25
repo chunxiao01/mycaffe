@@ -91,7 +91,7 @@ export default {
 .tab-control-capsule-content-tab {
   flex: 1;
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   height: 36px;
   line-height: 36px;
