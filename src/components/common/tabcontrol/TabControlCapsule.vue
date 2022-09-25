@@ -91,10 +91,10 @@ export default {
 .tab-control-capsule-content-tab {
   flex: 1;
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
-  height: 36px;
-  line-height: 36px;
+  height: 25px;
+  line-height: 25px;
 }
 .tab-control-capsule-content-tab-active {
   background-color: #fff;

@@ -108,7 +108,7 @@ export default {
   width: 100%;
   padding: 5px 0 10px 0;
   display: flex;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e6e6e6;
   margin-bottom: 10px;
 }
 .order-item-title-shoptype {
@@ -183,7 +183,7 @@ export default {
   display: flex;
   padding-top: 10px;
   margin-bottom: 10px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #e6e6e6;
 }
 .order-item-order-time {
   flex: 1;
@@ -212,9 +212,9 @@ export default {
 .order-item-action-btn-again,
 .order-item-action-btn-invoice {
   display: inline-block;
-  width: 70px;
-  height: 24px;
-  line-height: 24px;
+  width: 65px;
+  height: 22px;
+  line-height: 22px;
   border-radius: 20px;
   border: 1px solid var(--base-theme-color);
   font-size: 13px;

@@ -134,7 +134,8 @@ export default {
   left: -2px;
   top: -2px;
   background-color: #f95630;
-  font-size: 15px;
+  font-size: 12px;
+  padding: 2px;
   color: #f7ece3;
   border-radius: 8px 0 0 0;
 }

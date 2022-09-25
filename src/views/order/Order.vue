@@ -186,7 +186,7 @@ export default {
 
 .order-title {
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   background-color: var(--base-theme-bg-color);
   padding: 10px;
@@ -195,7 +195,7 @@ export default {
 }
 .order-control {
   background-color: var(--base-theme-bg-color);
-  padding: 0 10px 10px 0;
+  padding: 0 10px 10px 10px;
   position: relative;
   z-index: 1;
 }
@@ -206,6 +206,6 @@ export default {
   position: relative;
 }
 #orderListScroll {
-  height: calc(100vh - 159px);
+  height: calc(100vh - 129px);
 }
 </style>
