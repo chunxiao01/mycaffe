@@ -28,7 +28,7 @@ export default {
     return {
       swiperOptions: {},
       homeswiperlist: [
-        { src: require("assets/img/home/homebanner/banner1.png") }
+        { src: require("assets/img/home/homebanner/banner1.webp") }
       ]
     }
   },

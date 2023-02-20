@@ -67,7 +67,7 @@ export default {
             {
               goodsid: "goods_001",
               goodsname: "陨石厚乳拿铁",
-              goodspic: require("assets/img/goods/menugoods/cat3.png"),
+              goodspic: require("assets/img/goods/menugoods/cat3.webp"),
               goodsoptionid:
                 "goods_002_goodsselltype_01_01_goodsselltype_02_01_goodsselltype_03_03",
               goodsoption: "无奶油/冰/大/微糖",
@@ -89,7 +89,7 @@ export default {
             {
               goodsid: "goods_001",
               goodsname: "生椰拿铁",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
+              goodspic: require("assets/img/goods/menugoods/cat1.webp"),
               goodsoptionid:
                 "goods_001_goodsselltype_01_01_goodsselltype_02_01_goodsselltype_03_03",
               goodsoption: "无奶油/冰/大/微糖",
@@ -111,7 +111,7 @@ export default {
             {
               goodsid: "goods_001",
               goodsname: "生椰拿铁",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
+              goodspic: require("assets/img/goods/menugoods/cat1.webp"),
               goodsoptionid:
                 "goods_001_goodsselltype_01_01_goodsselltype_02_01_goodsselltype_03_03",
               goodsoption: "无奶油/冰/大/微糖",
@@ -120,7 +120,7 @@ export default {
             {
               goodsid: "goods_002",
               goodsname: "椰云拿铁",
-              goodspic: require("assets/img/goods/menugoods/cat2.png"),
+              goodspic: require("assets/img/goods/menugoods/cat2.webp"),
               goodsoptionid:
                 "goods_002_goodsselltype_01_01_goodsselltype_02_01_goodsselltype_03_01",
               goodsoption: "无奶油/冰/大/微糖",
@@ -142,7 +142,7 @@ export default {
             {
               goodsid: "goods_001",
               goodsname: "生椰拿铁",
-              goodspic: require("assets/img/goods/menugoods/cat1.png"),
+              goodspic: require("assets/img/goods/menugoods/cat1.webp"),
               goodsoptionid:
                 "goods_001_goodsselltype_01_01_goodsselltype_02_01_goodsselltype_03_03",
               goodsoption: "无奶油/冰/大/微糖",

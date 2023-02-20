@@ -17,7 +17,7 @@ export default {
           {
             product_id: "product_001",
             product_name: "元气弹系列2.0即溶咖啡",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat1.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat1.webp"),
             product_post: "特递包邮",
             product_size: "10gX18颗",
             product_desc: "元气弹系列2.0即溶咖啡",
@@ -29,7 +29,7 @@ export default {
           {
             product_id: "product_002",
             product_name: "精品冷萃冻干咖啡",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat2.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat2.webp"),
             product_post: "特递包邮",
             product_size: "3gX12颗",
             product_desc: "风味漫游系列即溶咖啡",
@@ -41,7 +41,7 @@ export default {
           {
             product_id: "product_003",
             product_name: "吸猫系列2.0挂耳咖啡",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat3.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat3.webp"),
             product_post: "特递包邮",
             product_size: "10gX20袋",
             product_desc: "吸猫系列2.0挂耳咖啡",
@@ -53,7 +53,7 @@ export default {
           {
             product_id: "product_004",
             product_name: "精品挂耳咖啡",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat4.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat4.webp"),
             product_post: "特递包邮",
             product_size: "10gX8袋",
             product_desc: "精品挂耳咖啡",
@@ -65,7 +65,7 @@ export default {
           {
             product_id: "product_005",
             product_name: "鲜萃咖啡液",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat1.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat1.webp"),
             product_post: "特递包邮",
             product_size: "25mLX9包",
             product_desc: "鲜萃咖啡液",
@@ -77,7 +77,7 @@ export default {
           {
             product_id: "product_006",
             product_name: "意式拼配咖啡豆",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat2.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat2.webp"),
             product_post: "特递包邮",
             product_size: null,
             product_desc: "【新鲜烘焙】意式拼配咖啡豆",
@@ -89,7 +89,7 @@ export default {
           {
             product_id: "product_007",
             product_name: "SOE*耶加雪菲纯粹风味",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat3.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat3.webp"),
             product_post: "特递包邮",
             product_size: "3gX12颗",
             product_desc: "SOE*耶加雪菲纯粹风味",
@@ -101,7 +101,7 @@ export default {
           {
             product_id: "product_008",
             product_name: "生椰浆",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat4.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat4.webp"),
             product_post: "特递包邮",
             product_size: "25mLX9包",
             product_desc: "【yyds】生椰浆",
@@ -113,7 +113,7 @@ export default {
           {
             product_id: "product_009",
             product_name: "超值组合",
-            product_pic: require("assets/img/goods/simplegoods/goods-cat1.png"),
+            product_pic: require("assets/img/goods/simplegoods/goods-cat1.webp"),
             product_post: "特递包邮",
             product_size: null,
             product_desc: "超值组合",

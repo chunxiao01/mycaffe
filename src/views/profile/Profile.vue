@@ -3,7 +3,7 @@
     <div class="profile-container">
       <div class="profile-user">
         <span class="profile-user-avatar">
-          <img src="~assets/img/goods/simplegoods/goods-cat1.png" alt="" />
+          <img src="~assets/img/goods/simplegoods/goods-cat1.webp" alt="" />
         </span>
         <span class="profile-user-login" v-if="!isLogin">登录/注册 ＞</span>
         <span class="profile-user-name" v-else></span>
@@ -18,61 +18,61 @@
       <div class="profile-content">
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat2.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat2.webp" alt="" />
           </div>
           <div class="profile-content-item-text">我的订单</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat3.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat3.webp" alt="" />
           </div>
           <div class="profile-content-item-text">咖啡钱包</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat4.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat4.webp" alt="" />
           </div>
           <div class="profile-content-item-text">优惠券</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat1.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat1.webp" alt="" />
           </div>
           <div class="profile-content-item-text">礼品卡</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat2.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat2.webp" alt="" />
           </div>
           <div class="profile-content-item-text">账户余额</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat3.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat3.webp" alt="" />
           </div>
           <div class="profile-content-item-text">发票管理</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat4.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat4.webp" alt="" />
           </div>
           <div class="profile-content-item-text">兑换优惠</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat1.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat1.webp" alt="" />
           </div>
           <div class="profile-content-item-text">帮助反馈</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat2.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat2.webp" alt="" />
           </div>
           <div class="profile-content-item-text">招商加盟</div>
         </div>
         <div class="profile-content-item">
           <div class="profile-content-item-img">
-            <img src="~assets/img/goods/simplegoods/goods-cat3.png" alt="" />
+            <img src="~assets/img/goods/simplegoods/goods-cat3.webp" alt="" />
           </div>
           <div class="profile-content-item-text">口味定制</div>
         </div>

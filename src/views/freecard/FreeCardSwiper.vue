@@ -29,11 +29,11 @@ export default {
         }
       },
       freecardswiperlist: [
-        { src: require("assets/img/home/homeswiper/swiper1.png") },
-        { src: require("assets/img/home/homeswiper/swiper2.png") },
-        { src: require("assets/img/home/homeswiper/swiper3.png") },
-        { src: require("assets/img/home/homeswiper/swiper4.png") },
-        { src: require("assets/img/home/homeswiper/swiper5.png") }
+        { src: require("assets/img/home/homeswiper/swiper1.webp") },
+        { src: require("assets/img/home/homeswiper/swiper2.webp") },
+        { src: require("assets/img/home/homeswiper/swiper3.webp") },
+        { src: require("assets/img/home/homeswiper/swiper4.webp") },
+        { src: require("assets/img/home/homeswiper/swiper5.webp") }
       ]
     }
   },

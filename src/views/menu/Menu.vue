@@ -171,7 +171,8 @@ export default {
     menuTypeSelect(index, id, e) {
       if (this.menuContentDatas[index]) {
         // console.log(e)
-        let menuContentGroups = this.$refs.menuContentRef.$el.children
+        let menuContentGroups =
+          this.$refs.menuContentRef && this.$refs.menuContentRef.$el.children
         let el = menuContentGroups[index]
         this.$refs.menuContentScrollRef.scroll &&
           this.$refs.menuContentScrollRef.scrollToElement(el, false, true)

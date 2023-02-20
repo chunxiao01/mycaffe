@@ -6,7 +6,7 @@
       </div>
       <div class="login-content">
         <div class="login-content-img">
-          <img src="~assets/img/common/bg/login-bg1.png" alt="" />
+          <img src="~assets/img/common/bg/login-bg1.webp" alt="" />
         </div>
         <div class="login-type">
           <div class="login-type-container">

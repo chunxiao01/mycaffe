@@ -21,7 +21,7 @@
             </div>
           </div>
           <div class="free-card-detail-item-img">
-            <img src="~assets/img/home/homeswiper/swiper1.png" alt="" />
+            <img src="~assets/img/home/homeswiper/swiper1.webp" alt="" />
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="free-card-detail-item-img">
-            <img src="~assets/img/home/homeswiper/swiper2.png" alt="" />
+            <img src="~assets/img/home/homeswiper/swiper2.webp" alt="" />
           </div>
         </div>
       </div>
@@ -103,107 +103,107 @@ export default {
         {
           name: "生椰拿铁",
           price: "14.5",
-          pic: require("assets/img/goods/menugoods/cat1.png")
+          pic: require("assets/img/goods/menugoods/cat1.webp")
         },
         {
           name: "椰云拿铁",
           price: "14.5",
-          pic: require("assets/img/goods/menugoods/cat2.png")
+          pic: require("assets/img/goods/menugoods/cat2.webp")
         },
         {
           name: "生椰丝绒拿铁",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat3.png")
+          pic: require("assets/img/goods/menugoods/cat3.webp")
         },
         {
           name: "冰生椰丝绒拿铁",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat4.png")
+          pic: require("assets/img/goods/menugoods/cat4.webp")
         },
         {
           name: "陨石生椰拿铁",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat5.png")
+          pic: require("assets/img/goods/menugoods/cat5.webp")
         },
         {
           name: "芒果好喝椰",
           price: "17",
-          pic: require("assets/img/goods/menugoods/cat6.png")
+          pic: require("assets/img/goods/menugoods/cat6.webp")
         },
         {
           name: "椰云芒芒",
           price: "18.5",
-          pic: require("assets/img/goods/menugoods/cat7.png")
+          pic: require("assets/img/goods/menugoods/cat7.webp")
         },
         {
           name: "生椰小圆子",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat8.png")
+          pic: require("assets/img/goods/menugoods/cat8.webp")
         },
         {
           name: "椰云荔荔",
           price: "18.5",
-          pic: require("assets/img/goods/menugoods/cat1.png")
+          pic: require("assets/img/goods/menugoods/cat1.webp")
         },
         {
           name: "椰云葡萄",
           price: "18.5",
-          pic: require("assets/img/goods/menugoods/cat2.png")
+          pic: require("assets/img/goods/menugoods/cat2.webp")
         },
         {
           name: "抹茶好喝椰",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat3.png")
+          pic: require("assets/img/goods/menugoods/cat3.webp")
         },
         {
           name: "耶加 • 生椰拿铁",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat4.png")
+          pic: require("assets/img/goods/menugoods/cat4.webp")
         },
         {
           name: "生椰爱摩卡",
           price: "17",
-          pic: require("assets/img/goods/menugoods/cat5.png")
+          pic: require("assets/img/goods/menugoods/cat5.webp")
         },
         {
           name: "大颗杨枝甘露",
           price: "17",
-          pic: require("assets/img/goods/menugoods/cat6.png")
+          pic: require("assets/img/goods/menugoods/cat6.webp")
         },
         {
           name: "杨枝甘露",
           price: "18",
-          pic: require("assets/img/goods/menugoods/cat7.png")
+          pic: require("assets/img/goods/menugoods/cat7.webp")
         },
         {
           name: "杨枝甘露",
           price: "17",
-          pic: require("assets/img/goods/menugoods/cat8.png")
+          pic: require("assets/img/goods/menugoods/cat8.webp")
         },
         {
           name: "如梦令",
           price: "15.5",
-          pic: require("assets/img/goods/menugoods/cat1.png")
+          pic: require("assets/img/goods/menugoods/cat1.webp")
         },
         {
           name: "轻盈版杨枝甘露",
           price: "17",
-          pic: require("assets/img/goods/menugoods/cat2.png")
+          pic: require("assets/img/goods/menugoods/cat2.webp")
         },
         {
           name: "杨枝甘露",
           price: "18",
-          pic: require("assets/img/goods/menugoods/cat3.png")
+          pic: require("assets/img/goods/menugoods/cat3.webp")
         },
         {
           name: "椰青冰萃",
           price: "14",
-          pic: require("assets/img/goods/menugoods/cat4.png")
+          pic: require("assets/img/goods/menugoods/cat4.webp")
         },
         {
           name: "椰云桃桃",
           price: "18.5",
-          pic: require("assets/img/goods/menugoods/cat5.png")
+          pic: require("assets/img/goods/menugoods/cat5.webp")
         }
       ]
     }

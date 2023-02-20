@@ -105,8 +105,8 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
-          goodssellpic: require("assets/img/sell/goodspic/goods_cat1_m.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
+          goodssellpic: require("assets/img/sell/goodspic/goods_cat1_m.webp"),
           goodsname: "椰云拿铁",
           goodstips: null,
           goodsdesc: "年度重磅 | 一口吞云，轻盈绵密",
@@ -117,10 +117,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat1_m.png")
+              require("assets/img/sell/goodspic/goods_cat1_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -182,7 +182,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "生椰拿铁",
           goodstips: null,
           goodsdesc: "人气 | YYDS,无限回购",
@@ -193,10 +193,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -258,7 +258,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "青森苹果丝绒拿铁",
           goodstips: "新品",
           goodsdesc: "清甜苹果风味，口感圆润丝滑",
@@ -269,10 +269,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat3_m.png")
+              require("assets/img/sell/goodspic/goods_cat3_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -352,7 +352,7 @@ const state = {
         },
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "厚乳拿铁",
           goodstips: null,
           goodsdesc: "人气 | 喵喵招牌，进入厚乳时代",
@@ -363,10 +363,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat4_m.png")
+              require("assets/img/sell/goodspic/goods_cat4_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -428,7 +428,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "瑰夏 • Dirty",
           goodstips: "SOE",
           goodsdesc: "醇厚坚果前调，奶香余韵绵长",
@@ -439,10 +439,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat5_m.png")
+              require("assets/img/sell/goodspic/goods_cat5_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -462,7 +462,7 @@ const state = {
         },
         {
           goodsid: "goods_006",
-          goodspic: require("assets/img/goods/menugoods/cat6.png"),
+          goodspic: require("assets/img/goods/menugoods/cat6.webp"),
           goodsname: "丝绒拿铁",
           goodstips: null,
           goodsdesc: "超丝滑 | 年度重磅，丝滑感提升",
@@ -473,10 +473,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat6_m.png")
+              require("assets/img/sell/goodspic/goods_cat6_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -538,7 +538,7 @@ const state = {
         },
         {
           goodsid: "goods_007",
-          goodspic: require("assets/img/goods/menugoods/cat7.png"),
+          goodspic: require("assets/img/goods/menugoods/cat7.webp"),
           goodsname: "富桂厚乳拿铁",
           goodstips: null,
           goodsdesc: "三分桂香扑鼻，七分醇厚香甜",
@@ -549,10 +549,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat7_m.png")
+              require("assets/img/sell/goodspic/goods_cat7_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -614,7 +614,7 @@ const state = {
         },
         {
           goodsid: "goods_008",
-          goodspic: require("assets/img/goods/menugoods/cat8.png"),
+          goodspic: require("assets/img/goods/menugoods/cat8.webp"),
           goodsname: "生椰丝绒拿铁",
           goodstips: null,
           goodsdesc: "双爆款 | 一口椰香一口丝滑",
@@ -625,10 +625,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat8_m.png")
+              require("assets/img/sell/goodspic/goods_cat8_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -722,7 +722,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "青森苹果丝绒拿铁",
           goodstips: "新品",
           goodsdesc: "清甜苹果风味，口感圆润丝滑",
@@ -733,10 +733,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat3_m.png")
+              require("assets/img/sell/goodspic/goods_cat3_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -816,7 +816,7 @@ const state = {
         },
         {
           goodsid: "goods_006",
-          goodspic: require("assets/img/goods/menugoods/cat6.png"),
+          goodspic: require("assets/img/goods/menugoods/cat6.webp"),
           goodsname: "丝绒拿铁",
           goodstips: null,
           goodsdesc: "超丝滑 | 年度重磅，丝滑感提升",
@@ -827,10 +827,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat6_m.png")
+              require("assets/img/sell/goodspic/goods_cat6_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -892,7 +892,7 @@ const state = {
         },
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "冰丝绒拿铁",
           goodstips: null,
           goodsdesc: "冰的刚刚好，一口丝滑滑滑",
@@ -903,10 +903,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat4_m.png")
+              require("assets/img/sell/goodspic/goods_cat4_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -962,7 +962,7 @@ const state = {
         },
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "冰生椰丝绒拿铁",
           goodstips: null,
           goodsdesc: "椰香清甜，冰润更丝滑",
@@ -973,10 +973,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat1_m.png")
+              require("assets/img/sell/goodspic/goods_cat1_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1050,7 +1050,7 @@ const state = {
         },
         {
           goodsid: "goods_008",
-          goodspic: require("assets/img/goods/menugoods/cat8.png"),
+          goodspic: require("assets/img/goods/menugoods/cat8.webp"),
           goodsname: "生椰丝绒拿铁",
           goodstips: null,
           goodsdesc: "双爆款 | 一口椰香一口丝滑",
@@ -1061,10 +1061,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat8_m.png")
+              require("assets/img/sell/goodspic/goods_cat8_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1144,7 +1144,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "冲绳黑糖丝绒拿铁",
           goodstips: null,
           goodsdesc: "老爆款升级，口感更丝滑",
@@ -1155,10 +1155,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1238,7 +1238,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "香草丝绒拿铁",
           goodstips: null,
           goodsdesc: "丝滑香甜，源自马达加斯加香草",
@@ -1249,10 +1249,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1351,7 +1351,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "瑰夏 • Dirty",
           goodstips: null,
           goodsdesc: "醇厚坚果前调，奶香余韵绵长",
@@ -1362,10 +1362,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat1_m.png")
+              require("assets/img/sell/goodspic/goods_cat1_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1385,7 +1385,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "瑰夏 • 生椰Dirty",
           goodstips: null,
           goodsdesc: "浓郁夏威夷果风味，清甜椰香尾韵",
@@ -1396,10 +1396,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1419,7 +1419,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "瑰夏 • 美式",
           goodstips: null,
           goodsdesc: "饱满坚果香气，回味悠长",
@@ -1430,10 +1430,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat3_m.png")
+              require("assets/img/sell/goodspic/goods_cat3_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1454,7 +1454,7 @@ const state = {
 
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "瑰夏 • 拿铁",
           goodstips: null,
           goodsdesc: "甄选SCA84精品级咖啡豆",
@@ -1465,10 +1465,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat4_m.png")
+              require("assets/img/sell/goodspic/goods_cat4_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1488,7 +1488,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "瑰夏 • 澳瑞白",
           goodstips: null,
           goodsdesc: "绵密奶泡注入，口感圆润饱满",
@@ -1499,10 +1499,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat5_m.png")
+              require("assets/img/sell/goodspic/goods_cat5_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1522,7 +1522,7 @@ const state = {
         },
         {
           goodsid: "goods_006",
-          goodspic: require("assets/img/goods/menugoods/cat6.png"),
+          goodspic: require("assets/img/goods/menugoods/cat6.webp"),
           goodsname: "耶加 • Dirty",
           goodstips: null,
           goodsdesc: "大口喝，前三口最奇妙",
@@ -1533,10 +1533,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat6_m.png")
+              require("assets/img/sell/goodspic/goods_cat6_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1556,7 +1556,7 @@ const state = {
         },
         {
           goodsid: "goods_007",
-          goodspic: require("assets/img/goods/menugoods/cat7.png"),
+          goodspic: require("assets/img/goods/menugoods/cat7.webp"),
           goodsname: "耶加 • 生椰Dirty",
           goodstips: null,
           goodsdesc: "明亮柑橘前调，浓郁椰香尾韵",
@@ -1567,10 +1567,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat7_m.png")
+              require("assets/img/sell/goodspic/goods_cat7_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1590,7 +1590,7 @@ const state = {
         },
         {
           goodsid: "goods_008",
-          goodspic: require("assets/img/goods/menugoods/cat8.png"),
+          goodspic: require("assets/img/goods/menugoods/cat8.webp"),
           goodsname: "耶加雪菲 • 澳瑞白",
           goodstips: null,
           goodsdesc: "人气爆款 | 甄选IIAC铂金豆",
@@ -1602,7 +1602,7 @@ const state = {
         },
         {
           goodsid: "goods_009",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "耶加雪菲 • 美式",
           goodstips: null,
           goodsdesc: "明亮柑橘调，尽享纯粹风味",
@@ -1614,7 +1614,7 @@ const state = {
         },
         {
           goodsid: "goods_010",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "耶加雪菲 • 拿铁",
           goodstips: null,
           goodsdesc: "醇厚坚果前调，奶香余韵绵长",
@@ -1640,7 +1640,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "葡萄冰萃咖啡",
           goodstips: null,
           goodsdesc: "个性特调 | 奶咖控谨慎尝新",
@@ -1652,7 +1652,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "火烈鸟冰萃咖啡",
           goodstips: null,
           goodsdesc: "0脂 | 粉柠特调，搅一搅更好喝",
@@ -1664,7 +1664,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "闪光橙橙冰萃咖啡",
           goodstips: null,
           goodsdesc: "0脂 | 含NFC非浓缩还原橙汁",
@@ -1690,7 +1690,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "生椰拿铁",
           goodstips: null,
           goodsdesc: "人气 | YYDS,无限回购",
@@ -1701,10 +1701,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat1_m.png")
+              require("assets/img/sell/goodspic/goods_cat1_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1766,7 +1766,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "椰云拿铁",
           goodstips: null,
           goodsdesc: "年度重磅 | 一口吞云，轻盈绵密",
@@ -1777,10 +1777,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1842,7 +1842,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "生椰丝绒拿铁",
           goodstips: null,
           goodsdesc: "双爆款 | 一口椰香一口丝滑",
@@ -1853,10 +1853,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat3_m.png")
+              require("assets/img/sell/goodspic/goods_cat3_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1936,7 +1936,7 @@ const state = {
         },
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "蓝天白云拿铁",
           goodstips: null,
           goodsdesc: "0乳糖 | 绵密椰云™，一口很治愈",
@@ -1948,7 +1948,7 @@ const state = {
         },
         {
           goodsid: "goods_006",
-          goodspic: require("assets/img/goods/menugoods/cat6.png"),
+          goodspic: require("assets/img/goods/menugoods/cat6.webp"),
           goodsname: "耶加 • Dirty",
           goodstips: null,
           goodsdesc: "大口喝，前三口最奇妙",
@@ -1959,10 +1959,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat6_m.png")
+              require("assets/img/sell/goodspic/goods_cat6_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -1982,7 +1982,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "生椰爱摩卡",
           goodstips: null,
           goodsdesc: "经典 | 清甜椰香恋上浓醇可可",
@@ -1994,7 +1994,7 @@ const state = {
         },
         {
           goodsid: "goods_007",
-          goodspic: require("assets/img/goods/menugoods/cat7.png"),
+          goodspic: require("assets/img/goods/menugoods/cat7.webp"),
           goodsname: "抹茶好喝椰",
           goodstips: null,
           goodsdesc: "0乳糖 | 抹茶控人气首选",
@@ -2006,7 +2006,7 @@ const state = {
         },
         {
           goodsid: "goods_008",
-          goodspic: require("assets/img/goods/menugoods/cat8.png"),
+          goodspic: require("assets/img/goods/menugoods/cat8.webp"),
           goodsname: "陨石生椰拿铁",
           goodstips: null,
           goodsdesc: "0乳糖 | 人气陨石拿铁 • 生椰版",
@@ -2017,10 +2017,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat8_m.png")
+              require("assets/img/sell/goodspic/goods_cat8_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -2100,7 +2100,7 @@ const state = {
         },
         {
           goodsid: "goods_009",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "芒果好喝椰",
           goodstips: null,
           goodsdesc: "香甜芒果香气邂逅清甜椰浆",
@@ -2127,7 +2127,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "厚乳拿铁",
           goodstips: "二周年",
           goodsdesc: "人气 | 喵喵招牌，进入厚乳时代",
@@ -2138,10 +2138,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat4_m.png")
+              require("assets/img/sell/goodspic/goods_cat4_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -2203,7 +2203,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "冰厚乳拿铁",
           goodstips: null,
           goodsdesc: "奶味浓醇出众，冰爽一夏",
@@ -2215,7 +2215,7 @@ const state = {
         },
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "偷偷想你茉莉鸳鸯",
           goodstips: null,
           goodsdesc: "超清爽 | 现泡茉莉花茶，清新纯润",
@@ -2227,7 +2227,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "海盐芝士茉莉鸳鸯",
           goodstips: null,
           goodsdesc: "海盐芝士版 • 偷偷想你茉莉鸳鸯",
@@ -2239,7 +2239,7 @@ const state = {
         },
         {
           goodsid: "goods_007",
-          goodspic: require("assets/img/goods/menugoods/cat7.png"),
+          goodspic: require("assets/img/goods/menugoods/cat7.webp"),
           goodsname: "海盐芝士厚乳拿铁",
           goodstips: null,
           goodsdesc: "人气 | 暖咖必选，经典芝士奶盖",
@@ -2251,7 +2251,7 @@ const state = {
         },
         {
           goodsid: "goods_006",
-          goodspic: require("assets/img/goods/menugoods/cat6.png"),
+          goodspic: require("assets/img/goods/menugoods/cat6.webp"),
           goodsname: "新鸳鸯红茶拿铁",
           goodstips: null,
           goodsdesc: "中国港式经典x冷翠厚牛乳",
@@ -2263,7 +2263,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "陨石厚乳拿铁",
           goodstips: null,
           goodsdesc: "Q弹陨石入醇厚奶香",
@@ -2289,7 +2289,7 @@ const state = {
       goodsGroupDetailData: [
         {
           goodsid: "goods_001",
-          goodspic: require("assets/img/goods/menugoods/cat1.png"),
+          goodspic: require("assets/img/goods/menugoods/cat1.webp"),
           goodsname: "拿铁",
           goodstips: null,
           goodsdesc: "意式浓缩与牛奶的经典混合",
@@ -2300,10 +2300,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat1_m.png")
+              require("assets/img/sell/goodspic/goods_cat1_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -2365,7 +2365,7 @@ const state = {
         },
         {
           goodsid: "goods_002",
-          goodspic: require("assets/img/goods/menugoods/cat2.png"),
+          goodspic: require("assets/img/goods/menugoods/cat2.webp"),
           goodsname: "陨石拿铁",
           goodstips: null,
           goodsdesc: "人气 | 真的不含陨石成分",
@@ -2376,10 +2376,10 @@ const state = {
           goodspieces: null,
           goodssellinfo: {
             goodssellpic: [
-              require("assets/img/sell/goodspic/goods_cat2_m.png")
+              require("assets/img/sell/goodspic/goods_cat2_m.webp")
             ],
             goodssellinfopic: [
-              require("assets/img/sell/goodsinfopic/goodsinfo.png")
+              require("assets/img/sell/goodsinfopic/goodsinfo.webp")
             ],
             goodsselltype: [
               {
@@ -2459,7 +2459,7 @@ const state = {
         },
         {
           goodsid: "goods_003",
-          goodspic: require("assets/img/goods/menugoods/cat3.png"),
+          goodspic: require("assets/img/goods/menugoods/cat3.webp"),
           goodsname: "焦糖拿铁",
           goodstips: null,
           goodsdesc: "浓郁焦糖香气，萦绕唇齿舌间",
@@ -2471,7 +2471,7 @@ const state = {
         },
         {
           goodsid: "goods_004",
-          goodspic: require("assets/img/goods/menugoods/cat4.png"),
+          goodspic: require("assets/img/goods/menugoods/cat4.webp"),
           goodsname: "冲绳黑糖拿铁",
           goodstips: null,
           goodsdesc: "黑糖与咖啡的美妙融合",
@@ -2483,7 +2483,7 @@ const state = {
         },
         {
           goodsid: "goods_005",
-          goodspic: require("assets/img/goods/menugoods/cat5.png"),
+          goodspic: require("assets/img/goods/menugoods/cat5.webp"),
           goodsname: "香草拿铁",
           goodstips: null,
           goodsdesc: "经典香甜口感，一口治愈味蕾",

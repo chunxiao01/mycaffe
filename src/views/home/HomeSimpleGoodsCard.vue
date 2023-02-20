@@ -61,9 +61,9 @@ export default {
       type: Array,
       default() {
         return [
-          require("assets/img/goods/simplegoods/goods-cat1.png"),
-          require("assets/img/goods/simplegoods/goods-cat2.png"),
-          require("assets/img/goods/simplegoods/goods-cat3.png")
+          require("assets/img/goods/simplegoods/goods-cat1.webp"),
+          require("assets/img/goods/simplegoods/goods-cat2.webp"),
+          require("assets/img/goods/simplegoods/goods-cat3.webp")
         ]
       }
     }

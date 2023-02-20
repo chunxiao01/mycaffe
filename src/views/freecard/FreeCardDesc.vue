@@ -1,3 +1,13 @@
+<!--
+ * @Author: chunxiao
+ * @Github: https://github.com/chunxiao01
+ * @Version: V-0.0.1
+ * @License: MIT
+ * @Date: 2023-01-31 11:11:50
+ * @LastEditTime: 2023-02-20 15:14:04
+ * @LastEditors: chunxiao
+ * @Description:
+-->
 <template>
   <div class="free-card-desc">
     <div class="free-card-desc-container">
@@ -67,7 +77,7 @@ export default {
   display: flex;
 }
 .free-card-desc-item-icon img {
-  width: 30px;
+  width: 24px;
   margin: auto;
 }
 .free-card-desc-item-text {
