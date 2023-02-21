@@ -10,7 +10,9 @@
 -->
 <template>
   <div id="app">
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
     <main-tab-bar id="mainTabBar" v-show="!$route.meta.hideTabBar" />
   </div>
 </template>
